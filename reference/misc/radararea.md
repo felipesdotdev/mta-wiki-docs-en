@@ -1,0 +1,78 @@
+---
+doc_id: "mta-wiki:3115"
+title: "Element/Radar area"
+source_title: "Radararea"
+source_url: "https://wiki.multitheftauto.com/wiki/Radararea"
+revision_id: 70604
+language: "en"
+categories: ["Element_Types"]
+generated_at: "2026-07-26T16:16:31.169430+00:00"
+---
+
+# Element/Radar area
+
+The radar area class represents coloured areas that can be displayed on a player's radar.
+
+The element type of this class is **"radararea"**.
+
+## XML syntax
+
+```
+<radararea posX="" posY="" sizeX="" sizeY="" color="" dimension=""/>
+```
+
+### Required Attributes
+
+- **posX**: A float representing the X position of the radar area.
+
+- **posY**: A float representing the Y position of the radar area.
+
+- **sizeX**: A float representing the width of the radar area.
+
+- **sizeY**: A float representing the height of the radar area.
+
+### Optional Attributes
+
+- **color:** The color of the radar area in HTML-style format (i.e. #RRGGBBAA). Defaults to red if not specified.
+
+- **dimension:** The dimension of the radar area. Defaults to 0 if not specified.
+
+## Related scripting functions
+
+### Client
+
+**Shared**
+
+- [createRadarArea](mta://scripting/shared/functions/createradararea.md)
+
+- [getRadarAreaColor](mta://scripting/shared/functions/getradarareacolor.md)
+
+- [getRadarAreaSize](mta://scripting/shared/functions/getradarareasize.md)
+
+- [isInsideRadarArea](mta://scripting/shared/functions/isinsideradararea.md)
+
+- [isRadarAreaFlashing](mta://scripting/shared/functions/isradarareaflashing.md)
+
+- [setRadarAreaColor](mta://scripting/shared/functions/setradarareacolor.md)
+
+- [setRadarAreaFlashing](mta://scripting/shared/functions/setradarareaflashing.md)
+
+- [setRadarAreaSize](mta://scripting/shared/functions/setradarareasize.md)
+
+### Server
+
+- [createRadarArea](mta://scripting/shared/functions/createradararea.md)
+
+- [getRadarAreaColor](mta://scripting/shared/functions/getradarareacolor.md)
+
+- [getRadarAreaSize](mta://scripting/shared/functions/getradarareasize.md)
+
+- [isInsideRadarArea](mta://scripting/shared/functions/isinsideradararea.md)
+
+- [isRadarAreaFlashing](mta://scripting/shared/functions/isradarareaflashing.md)
+
+- [setRadarAreaColor](mta://scripting/shared/functions/setradarareacolor.md)
+
+- [setRadarAreaFlashing](mta://scripting/shared/functions/setradarareaflashing.md)
+
+- [setRadarAreaSize](mta://scripting/shared/functions/setradarareasize.md)

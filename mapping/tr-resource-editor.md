@@ -1,0 +1,306 @@
+---
+doc_id: "mta-wiki:12571"
+title: "TR/Resource:Editor"
+source_title: "Tr/Resource:Editor"
+source_url: "https://wiki.multitheftauto.com/wiki/Tr/Resource%3AEditor"
+revision_id: 68349
+language: "en"
+categories: ["Resource"]
+generated_at: "2026-07-26T16:16:50.118203+00:00"
+---
+
+# TR/Resource:Editor
+
+| [[{{{image}}}\|link=\|]] | Note: Bu sayfa henüz tam olarak çevrilmedi. İngilizce cümleler içerebilir. |
+| --- | --- |
+|  |  |
+
+MTA:SA map editörü ile oyun modlarınız için haritalar yaratabilirsiniz.
+
+## Başlangıç
+
+Map editörü başlatmak için, MTA ana menüsündeki "Map Editor"e tıklayın.
+
+## Menüler
+
+Editor açıldıktan sonra 2 adet menü barları ile karşılaşacaksınız, ana menü ekranın tepesinde, element menüsü ise ekranın sol altında bulunur.
+
+### Ana menü
+
+Ana menü tuşları ve açıklamaları:
+
+- Yeni harita yaratır.
+
+- Halihazırda kayıtlı bir haritayı açar.
+
+- Üzerinde çalışmakta olduğunuz haritayı kaydeder.
+
+- Haritanızı farklı bir isimle kaydeder.
+
+- Genel map editör ayarlarını değiştirmenize yarar.
+
+- Yaptığınız son hareketi geri alır.
+
+- Son geri almanızı geri alır.
+
+- Kayıtlı dünya konumlarını gösterir. İlk kurulumda editor, bir çok San Andreas Interior konumları halihazırda kayıtlı şekilde gelir. İsterseniz siz de interior/exterior konumları buraya kaydedip ileride ulaşmak için kendinize kolaylık sağlayabilirsiniz.
+
+- Editörde açık olan haritanın bütün elementlerinin listesini gösterir. (objeler, araçlar, markerlar, pickuplar, vs.)
+
+- Haritaya özel ayarları değiştirmenizi ve görüntülemenizi sağlar. Eğer isterseniz haritanızın hangi oyun modlarıyla uyumlu olduğunu buradan belirtebilirsiniz.
+
+- Kullanmak istediğiniz [editor definition files (EDF)](mta://resources/editor-edf.md)'leri yüklemenize olanak sağlar.
+
+- Haritayı gerçek zamanda test etmenize yarar. Bu tuşa bastığınızda spawn olursunuz ve haritayı deneyebilirsiniz. F5'e basarak Test modundan çıkabilirsiniz.
+
+### Element menüsü
+
+Element menüsü yeni elemenleri haritaya eklemek için kullanılır.
+
+- Araç yarat
+
+- Obje yarat (Binalar, yollar, ve diğer objeler).
+
+- Pickup yarat (Sağlık, zırh, silah ve özel pickuplar).
+
+- Marker yarat (checkpoint, ring, cylinder, arrow ve corona).
+
+- Dünya objesini kopyala.
+
+- Dünya objesini sil.
+
+Ayrıca, eğer [ekstra "editör modülü"](mta://resources/editor-edf.md) kullanıyorsanız, imlecinizi bu menüde herhangi bir butonun üstüne getirip mouse tekerleğini aşağı çekerek onun butonlarına erişebilirsiniz.
+
+## Editörü kullanmak
+
+Bu bölüm, yeni haritaları nasıl yaratabileceğinizi veya düzenleyeceğinizi anlatır.
+
+### Moving around the map
+
+When you initially start the editor, you are in *camera mode*.  You are able to use the **WASD** keys to move the camera and the mouse to pan the camera.  While moving around, you can hold **ALT** to move more slowly or **SHIFT** to go faster.
+
+To access the editor's interface and control panel you need to switch to *cursor mode*.  You can toggle between cursor mode and camera mode with the **F** key.  When in cursor mode,  your view is fixed, and you can use the mouse cursor to manipulate elements and use the graphical interface.
+
+Camera mode can be recognized by a crosshair in the center of the screen. You can use it to select and move elements just like in cursor mode.
+
+### Starting a new map
+
+- Start the editor, or if it is already started, click the *New* menu button.
+
+- Click the *Map settings* button. In the *Meta* tab, fill in the Name and Author fields with the name of the map and your name respectively. Also open the *Gamemodes* tab and add the gamemodes your map is meant for (they will be moved to the *Added gamemodes* list). You can do this by selecting them and clicking *Add*, or by double clicking them. Click OK when you're done.
+
+- Click the *Definitions* window and add the resources of which you want to use the custom elements. These will consist of the gamemodes you selected in the *Map settings* window, plus eventual additional resources. For more information about editor definitions, see [EDF](mta://resources/editor-edf.md). Click OK when you're done.
+
+### Creating new elements
+
+Adding elements to your map, such as vehicles and objects, is very straightforward.
+
+- If you are in camera mode, switch to cursor mode first by pressing **F**.
+
+- Click the button in the element menu that represents what you want. E.g., click the button with a car on it to add a vehicle.
+
+- A new element of the selected type will be created and attached to your cursor. Move it to the location where you want it and **left click** to drop it off.
+
+To create custom elements that are specific to a resource, hover the cursor over the element menu and turn the scroll wheel until the desired resource comes up. Note that for this to work, you first have to add the [EDF](mta://resources/editor-edf.md) file of the resource in the *Definitions* window.
+
+### Selecting
+
+- **Left click** an element to select it in *keyboard mode*.
+
+- **Right click** it to select it in *mouse mode*.
+
+- Press the **Spacebar** or click in an empty area to deselect.
+
+The selected element, if any, is denoted by a yellow cone marker.  Elements (particularly objects) with poor collisions can be detected easier by enabling *High sensitivity mode*, by pressing the **E** key.  This increases detection at the expense of accuracy.
+
+The *Current elements* dialog can also be used to select elements.  Double-clicking an item within the list will select it in *Keyboard mode*.
+
+### Moving
+
+Moving elements can be done in several ways.
+
+**With the mouse**
+
+- Simply drag and drop with the **left mouse button**.
+
+Or:
+
+- Select the element in mouse mode (**right click**), move it to where you want it, and click to drop it off.
+
+You can also adjust the *Hold distance* of an element toward and away from the camera by switching to camera mode, **right clicking** the element, and rolling the **mouse wheel**.
+
+**With the keyboard**
+
+- Select the element in keyboard mode (**left click**).
+
+- Use the **arrow keys** to move the element in the horizontal plane, and **PgUp**/**PgDn** to move it vertically. Hold **ALT** to decrease the movement speed, or **SHIFT** to increase it.
+
+By default, elements move relative to the camera and are not locked to any axes.  This can be disabled in the *Options* menu.
+
+### Rotating
+
+**With the mouse**
+
+You can rotate selected elements around the Z axis with the mouse wheel.
+
+- Select the element in keyboard mode (**left click**) and roll the mouse wheel while holding **Left CTRL**.
+
+Or:
+
+- Select the element in mouse mode (**right click**), hold **CTRL**, and roll the mouse wheel.
+
+**With the keyboard**
+
+- Select the element in keyboard mode (**left click**).
+
+- While holding **CTRL** (the selection marker will turn green), use the **arrow keys** and **PgUp**/**PgDn** to rotate the element around the different axes.
+
+With both methods you can additionally hold **ALT** to decrease the rotation speed or **SHIFT** to increase it.
+
+### Changing model and other properties
+
+Most elements have a variety of options that can be altered to change their appearance and behaviour. Examples are the model, color and visual upgrades of a car.
+
+- Open the properties window of an element by either double clicking it or by selecting it and pressing **F3**.
+
+- Make any alterations that you want. For example, to change the model of a car or object, click the **Browse** button next to "model" to open the model browser.
+
+- Click OK when you're done.
+
+### Cloning
+
+You can clone an element by selecting it and pressing **C**.
+
+- In mouse mode the cloned element will be attached to your cursor. **Left click** to place it in the map.
+
+- In keyboard mode the cloned element will be cloned in the identical position.
+
+If you hold **CTRL** while clicking, the element will be cloned again and will again be attached to the cursor. This way you can easily place large quantities of something.
+
+Alternatively you can use the *Pullout* button located in the bottom-right corner of the properties box to clone an element.
+
+### Deleting
+
+Simply select the element and press **DEL** *(Delete)*.
+
+Alternatively you can use the *Pullout* button located in the bottom-right corner of the properties box to delete an element.
+
+## Creating maps for specific gamemodes
+
+To make a map for a specific gamemode, you have to do two things:
+
+- Click the **Map Settings** button in the top menu, go to the **Gamemodes** tab and add any gamemodes that your map is to be used with.
+
+- You will likely also need to add one or more [Editor Definition Files](mta://resources/editor-edf.md). These will allow you to place gamemode specific elements in the map, like spawnpoints, race checkpoints, or CTF flags. You can add EDF's by clicking the **Definitions** menu button and adding the relevant gamemodes.
+
+## Controls
+
+Here is a list of all default controls. To change them please go to the MTA Settings menu while the Editor is started.
+
+### Camera
+
+| camera_move_forwards | w |
+| --- | --- |
+| camera_move_backwards | s |
+| camera_move_left | a |
+| camera_move_right | d |
+| high_sensitivity_mode | e |
+
+### Cloning
+
+| clone_selected_element | c |  |
+| --- | --- | --- |
+| clone_drop_modifier | lctrl | (Left CTRL) |
+
+### Element manipulation
+
+| element_move_forward | arrow_u | (Arrow key Up) |
+| --- | --- | --- |
+| element_move_backward | arrow_d | (Arrow key Down) |
+| element_move_left | arrow_l | (Arrow key Left) |
+| element_move_right | arrow_r | (Arrow key Right) |
+| element_move_downwards | pgdn | (Page Down) |
+| element_move_upwards | pgup | (Page Up) |
+| zoom_in | mouse_wheel_down |  |
+| zoom_out | mouse_wheel_up |  |
+| quick_rotate_increase | mod_rotate + mouse_wheel_up | (Left CTRL + Mouse wheel Up) |
+| quick_rotate_decrease | mod_rotate + mouse_wheel_down | (Left CTRL + Mouse wheel Down) |
+| mod_rotate | lctrl | (Left CTRL) |
+| mod_slow_speed | lalt | (Left ALT) |
+| mod_fast_speed | lshift | (Left SHIFT) |
+| destroy_selected_element | delete |  |
+| drop_selected_element | space |  |
+| pickup_selected_element | F2 |  |
+| reset_rotation | mod_rotate + r | (Left CTRL + R) |
+
+### GUI
+
+| toggle_gui_display | F4 |  |
+| --- | --- | --- |
+| toggle_cursor | f |  |
+| select_target_keyboard | mouse1 | (Left Mouse button) |
+| select_target_mouse | mouse2 | (Right Mouse button) |
+| edf_next | mouse_wheel_up |  |
+| edf_prev | mouse_wheel_down |  |
+| undo | Ctrl + z |  |
+| redo | Ctrl + y |  |
+| properties_toggle | F3 |  |
+| browser_up | arrow_u | (Arrow key Up) |
+| browser_down | arrow_d | (Arrow key Down) |
+| browser_zoom_in | mouse_wheel_up |  |
+| browser_zoom_out | mouse_wheel_down |  |
+| browser_confirm | enter |  |
+| currentelements_up | num_8 | (Numpad key 8) |
+| currentelements_down | num_2 | (Numpad key 2) |
+| toggle_test | F5 |  |
+
+## Multiplayer
+
+The editor is built with both serverside and clientside components, and therefore supports multiplayer out of the box.  To use the editor in multiplayer with other players, simply copy all of the editor's resources into your server, start the **editor** resource and allow other players to join.
+
+Please note that currently the editor lacks any permissions system, so all users have access to every function.
+
+## Plugins & External resources
+
+The editor allows basic importing of elements from external resources.  This is useful for resources that may have to manipulate an element in a specific way that cannot be performed by the editor.  For example, a map resource which uses custom models (and has a script to import these models) cannot be manipulated by default within the editor.
+
+By using the **import <resourceName>** command in console the resource's elements can be imported within the editor.
+
+## FAQ
+
+#### I get a black screen when launching the Map Editor
+
+Usually this is caused due to incorrect installation of Map Editor resources. If you are using a stable MTASA client, please install it again and make sure that you use Client and Server install option.
+
+If you are using a nightly build, to get it working right you need to download latest [resources (step 3)](https://github.com/multitheftauto/mtasa-resources), unpack the archive and put its contents in:
+*MTA San Andreas\server\mods\deathmatch\resources* , where *MTA San Andreas* is a folder where you've installed MTA San Andreas (default location: C:\Program Files\MTA San Andreas).
+
+Putting them in this path: MTA San Andreas\mods\deathmatch\resources **is a common mistake** - it won't work if you put them there. So make sure to put them in the *italic* path above.
+
+If this issue still occurs, even when you've checked the note above and verified that you've installed it correctly, it might be because you've got an outdated **acl.xml** file.   You can find the default one [here](https://github.com/multitheftauto/mtasa-blue/blob/master/Server/mods/deathmatch/acl.xml).  It should be placed in **server/mods/deathmatch/** in your MTA: San Andreas installation directory.
+
+#### I get an "Could not start the local server. See console for details" when using the  "Map Editor" button
+
+This is because you do not have a valid editor.conf installed.  You can find the default one [here](https://github.com/multitheftauto/mtasa-blue/blob/master/Server/mods/deathmatch/editor.conf).  It should be placed in **server/mods/deathmatch/** in your MTA: San Andreas installation directory.
+
+#### I have saved a map but cannot find it in my server's resources directory, despite the Editor itself being able to see it
+
+This is due to the fact that Vista/7 limits write-access for non-admin processes in Program Files directory. Files get written in the "VirtualStore" directory instead of real Program Files folder.  You should be able to locate your map resource in a similar directory to:
+
+```
+C:\Users\<USERNAME>\AppData\Local\VirtualStore\Program Files\MTA San Andreas\server\mods\deathmatch\resources\
+```
+
+Running the Server/MTA San Andreas with Administrative rights will allow the map to be saved to the proper location.
+
+#### I have some other problem with the map editor
+
+Sometimes resetting the map editor will solve certain issues. The easiest way to do that is install MTA:SA to a brand new folder. Otherwise you can try the following steps:
+
+1. Go to the resources folder, **server/mods/deathmatch/resources/** and delete the **editor_dump** directory
+
+2. Go to the resources folder, **server/mods/deathmatch/resources/** and delete the **editor_test** directory
+
+#### I have found a bug or have a suggestion/feedback for the map editor
+
+Please use the official [github issues](https://github.com/multitheftauto/mtasa-blue/issues) for reporting bugs.  Feel free to also join us on [Discord](http://www.mtasa.com/discord).

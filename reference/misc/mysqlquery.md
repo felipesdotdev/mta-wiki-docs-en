@@ -1,0 +1,72 @@
+---
+doc_id: "mta-wiki:2326"
+title: "Modules/MySQL/MysqlQuery"
+source_title: "MysqlQuery"
+source_url: "https://wiki.multitheftauto.com/wiki/MysqlQuery"
+revision_id: 21621
+language: "en"
+categories: []
+generated_at: "2026-07-26T16:16:15.948245+00:00"
+---
+
+# Modules/MySQL/MysqlQuery
+
+|  | This function is provided by the external module MySQL . You must install this module to use this function. |
+| --- | --- |
+|  |  |
+
+This functions queries the MySQL server through the MySQL connection that has been opened by [mysqlOpen](mta://reference/misc/modules-mysql-mysqlopen.md). The result of the query is then passed to the script by calling callback_function. It's syntax and functionality is similar to that of [executeSQLSelect](mta://scripting/server/functions/executesqlselect.md).
+
+## Syntax
+
+```
+bool mysqlQuery ( mysql mysqlobj, string callback_function, string query )
+```
+
+### Required Arguments
+
+- **mysqlobj** : A *mysql* object created by [mysqlCreate](mta://reference/misc/modules-mysql-mysqlcreate.md)
+
+- **callback_function** : The function that is called if the operation is done (see below)
+
+- **query** : The MySQL query that is sent
+
+### Callback Arguments
+
+Your callback function has to accept the following arguments.
+
+On success:
+
+- **table:** The 2-dimensional table where the results are stored in: table [row_index] [column_index].
+
+On failure:
+
+- **boolean:** False, when no rows are found or an error occured.
+
+### Optional Arguments
+
+*None*
+
+## Example
+
+```
+function onMySQLResult ( table )
+	outputServerLog ( "Printing some test results" )
+	outputServerLog ( table[1][1] )
+	outputServerLog ( table[1][2] )
+end
+
+function onMySQLOpen ( result )
+	if ( result ) then
+		outputServerLog ( "MySQL connection established." )
+		mysqlQuery ( db, "onMySQLResult", "SELECT * FROM test" )
+	else
+		outputServerLog ( "MySQL connection failed." )
+	end
+end
+
+function mysqltest ()
+	db = mysqlCreate ()
+	mysqlOpen ( db, "onMySQLOpen", "localhost", "bastage", "bastage_pw", "test", 3306 )
+end
+```

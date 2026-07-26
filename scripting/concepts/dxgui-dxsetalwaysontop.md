@@ -1,0 +1,35 @@
+---
+doc_id: "mta-wiki:7284"
+title: "DxGUI/dxSetAlwaysOnTop"
+source_title: "DxGUI/dxSetAlwaysOnTop"
+source_url: "https://wiki.multitheftauto.com/wiki/DxGUI/dxSetAlwaysOnTop"
+revision_id: 37243
+language: "en"
+categories: []
+generated_at: "2026-07-26T16:14:48.820383+00:00"
+---
+
+# DxGUI/dxSetAlwaysOnTop
+
+This function brings a dxGUI element on top of others.
+
+## Syntax
+
+```
+dxSetAlwaysOnTop( element dxElement, bool postGUI )
+```
+
+### Required Arguments
+
+- **dxElement:** the dxGUI element that you want to move to the front.
+
+- **postGUI:** the dxGUI element state. If this is true than the element will be on top
+
+## Example
+
+**Example 1:** This brings on top the window.
+
+```
+window = exports.dxGUI_v1:dxCreateWindow(0,0,250,300,"Hello!",white,"default-bold","Sath Metro [Green]")
+exports.dxGUI_v1:dxSetAlwaysOnTop(window, true)
+```

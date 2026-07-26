@@ -1,0 +1,11 @@
+{
+  "source": "https://wiki.multitheftauto.com/wiki/Main_Page",
+  "language": "en",
+  "source_inventory_pages": 4808,
+  "cached_source_pages": 4804,
+  "emitted_markdown_pages": 4799,
+  "notes": [
+    "Four inventory entries were no longer available from the MediaWiki API at collection time.",
+    "Non-English translations were excluded by title/category rules."
+  ]
+}

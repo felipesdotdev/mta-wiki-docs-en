@@ -1,0 +1,10 @@
+# Local crawler state and temporary files
+/work/
+*.tmp
+*.log
+
+# Operating-system/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
