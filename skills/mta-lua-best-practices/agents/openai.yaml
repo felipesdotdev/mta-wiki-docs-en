@@ -1,0 +1,6 @@
+interface:
+  display_name: "MTA Lua Best Practices"
+  short_description: "Review MTA Lua code for robust practices"
+  default_prompt: "Use $mta-lua-best-practices to review this MTA Lua code and suggest concrete improvements."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,60 @@
+name: Update documentation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 5 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-mta-documentation
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install project
+        run: python -m pip install -e ".[dev]"
+
+      - name: Synchronize English documentation
+        run: mta-wiki-docs sync --workers 2
+
+      - name: Validate corpus and skills
+        run: |
+          mta-wiki-docs validate
+          pytest
+
+      - name: Open or update documentation PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Documentation is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C automation/update-docs
+          git add skills/mta-docs/references
+          git commit -m "Update MTA wiki documentation"
+          git push --force-with-lease origin automation/update-docs
+          gh pr view automation/update-docs >/dev/null 2>&1 || \
+            gh pr create \
+              --base main \
+              --head automation/update-docs \
+              --title "Update MTA wiki documentation" \
+              --body "Automated incremental update from the public MTA MediaWiki API. Includes corpus validation and tests."

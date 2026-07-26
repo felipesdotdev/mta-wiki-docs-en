@@ -1,5 +1,11 @@
 # Local crawler state and temporary files
 /work/
+.cache/
+.pytest_cache/
+__pycache__/
+*.egg-info/
+build/
+dist/
 *.tmp
 *.log
 

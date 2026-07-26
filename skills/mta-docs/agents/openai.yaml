@@ -1,0 +1,6 @@
+interface:
+  display_name: "MTA Documentation"
+  short_description: "Search and apply official MTA documentation"
+  default_prompt: "Use $mta-docs to answer this MTA scripting question from the bundled documentation."
+policy:
+  allow_implicit_invocation: true

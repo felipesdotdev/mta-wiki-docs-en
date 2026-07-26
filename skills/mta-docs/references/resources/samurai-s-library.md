@@ -1,0 +1,12 @@
+---
+doc_id: "mta-wiki:6570"
+title: "Resource : Samurai's Library"
+source_title: "Resource:Samurai's Library"
+source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ASamurai%27s_Library"
+revision_id: 37409
+language: "en"
+categories: []
+---
+
+# Resource : Samurai's Library
+
