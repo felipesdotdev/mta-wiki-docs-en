@@ -2,3 +2,4 @@
 *.md text
 *.json text
 *.jsonl text
+skills/mta-docs/references/** -whitespace

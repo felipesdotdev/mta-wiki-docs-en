@@ -1,0 +1,18 @@
+{
+  "changed": 0,
+  "error_count": 0,
+  "errors": [],
+  "inventory": 4172,
+  "language": "en",
+  "markdown_pages": 4159,
+  "normalized": {
+    "deduplicated": 0,
+    "indexed": 4159,
+    "removed": 0,
+    "repaired_links": 30,
+    "rewritten": 0
+  },
+  "removed": 26,
+  "source": "https://wiki.multitheftauto.com/wiki/Main_Page",
+  "written": 0
+}
