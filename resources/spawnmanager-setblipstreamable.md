@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ASpawnmanager/setBli
 revision_id: 18281
 language: "en"
 categories: ["Server_functions", "Client_functions"]
-generated_at: "2026-07-26T16:17:00.078613+00:00"
+generated_at: "2026-07-26T16:17:14.453493+00:00"
 ---
 
 # Resource : Blipstreamer/setBlipStreamable

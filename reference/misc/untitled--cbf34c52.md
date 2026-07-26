@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%D0%AD%D0%BB%D0%B5%D0%BC%D0%B5
 revision_id: 70640
 language: "en"
 categories: ["Изменения_в_версии_1.4.0", "Элемент"]
-generated_at: "2026-07-26T16:16:57.952561+00:00"
+generated_at: "2026-07-26T16:17:09.612259+00:00"
 ---
 
 # Category : Эффект

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%D0%9A%D0%B0%D0%BA_%D1%82%D1%8
 revision_id: 71046
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:57.517650+00:00"
+generated_at: "2026-07-26T16:17:09.287281+00:00"
 ---
 
 # Как ты можешь помочь

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AObject_preview"
 revision_id: 81962
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:59.034778+00:00"
+generated_at: "2026-07-26T16:17:13.402091+00:00"
 ---
 
 # Resource : Object preview

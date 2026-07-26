@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ACDM"
 revision_id: 14148
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:58.743800+00:00"
+generated_at: "2026-07-26T16:17:10.285528+00:00"
 ---
 
 # Resource : CDM

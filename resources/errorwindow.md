@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AErrorwindow"
 revision_id: 69402
 language: "en"
 categories: ["Utility_templates", "Resource"]
-generated_at: "2026-07-26T16:17:01.135013+00:00"
+generated_at: "2026-07-26T16:17:12.301474+00:00"
 ---
 
 # Resource : Errorwindow

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%E8%A1%A8"
 revision_id: 69284
 language: "en"
 categories: ["Translated/Scripting_Concepts"]
-generated_at: "2026-07-26T16:16:58.263322+00:00"
+generated_at: "2026-07-26T16:17:09.866709+00:00"
 ---
 
 # 表

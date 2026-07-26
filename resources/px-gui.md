@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3APx_Gui"
 revision_id: 82841
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:59.141246+00:00"
+generated_at: "2026-07-26T16:17:13.531225+00:00"
 ---
 
 # Resource : Px Gui

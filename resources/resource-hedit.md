@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AResource%3Ahedit"
 revision_id: 82190
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:59.749319+00:00"
+generated_at: "2026-07-26T16:17:14.156262+00:00"
 ---
 
 # Resource : Hedit

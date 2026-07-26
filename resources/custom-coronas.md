@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ACustom_coronas"
 revision_id: 50142
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:59.276602+00:00"
+generated_at: "2026-07-26T16:17:10.770435+00:00"
 ---
 
 # Resource : Custom coronas

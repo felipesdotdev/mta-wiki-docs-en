@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%D0%9D%D0%B0%D0%B2%D1%8B%D0%BA
 revision_id: 74856
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:57.592000+00:00"
+generated_at: "2026-07-26T16:17:09.340595+00:00"
 ---
 
 # Навыки владения оружием

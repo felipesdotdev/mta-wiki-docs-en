@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Votemanager"
 revision_id: 31762
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:54.479793+00:00"
+generated_at: "2026-07-26T16:17:06.028647+00:00"
 ---
 
 # Resource : Votemanager

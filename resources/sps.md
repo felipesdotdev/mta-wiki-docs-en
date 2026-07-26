@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ASPS"
 revision_id: 62942
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:59.812775+00:00"
+generated_at: "2026-07-26T16:17:14.212611+00:00"
 ---
 
 # Resource : SPS

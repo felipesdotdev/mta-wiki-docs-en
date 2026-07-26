@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AMapmanager"
 revision_id: 79338
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:58.967445+00:00"
+generated_at: "2026-07-26T16:17:13.332172+00:00"
 ---
 
 # Resource : Mapmanager

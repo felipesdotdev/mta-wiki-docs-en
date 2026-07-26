@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ABattlefield"
 revision_id: 50187
 language: "en"
 categories: ["Outdated_Pages", "Resource"]
-generated_at: "2026-07-26T16:16:58.528327+00:00"
+generated_at: "2026-07-26T16:17:10.104605+00:00"
 ---
 
 # Resource : Battlefield

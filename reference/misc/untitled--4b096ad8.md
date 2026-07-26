@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%E5%AE%A2%E6%88%B7%E7%AB%AF%E8
 revision_id: 34347
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:58.256587+00:00"
+generated_at: "2026-07-26T16:17:09.860180+00:00"
 ---
 
 # 客户端脚本

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%D0%91%D0%B0%D0%BD"
 revision_id: 69253
 language: "en"
 categories: ["Понятия_скриптинга", "Translated/Scripting_Concepts"]
-generated_at: "2026-07-26T16:16:56.823793+00:00"
+generated_at: "2026-07-26T16:17:08.606621+00:00"
 ---
 
 # Бан

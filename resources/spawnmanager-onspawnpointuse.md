@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ASpawnmanager/onSpaw
 revision_id: 14050
 language: "en"
 categories: ["Server_Events"]
-generated_at: "2026-07-26T16:17:00.068800+00:00"
+generated_at: "2026-07-26T16:17:14.444786+00:00"
 ---
 
 # Resource : Spawnmanager/onSpawnpointUse

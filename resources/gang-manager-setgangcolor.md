@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AGang_Manager/setGan
 revision_id: 40175
 language: "en"
 categories: ["Server_functions"]
-generated_at: "2026-07-26T16:17:01.505347+00:00"
+generated_at: "2026-07-26T16:17:12.581544+00:00"
 ---
 
 # Resource : Gang Manager/setGangColor

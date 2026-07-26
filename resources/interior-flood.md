@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AInterior_flood"
 revision_id: 37555
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:17:01.949065+00:00"
+generated_at: "2026-07-26T16:17:12.963564+00:00"
 ---
 
 # Resource : Interior flood

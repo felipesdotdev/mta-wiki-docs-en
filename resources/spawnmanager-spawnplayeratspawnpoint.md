@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ASpawnmanager/spawnP
 revision_id: 17765
 language: "en"
 categories: ["Server_functions"]
-generated_at: "2026-07-26T16:17:00.128432+00:00"
+generated_at: "2026-07-26T16:17:14.492412+00:00"
 ---
 
 # Resource : Spawnmanager/spawnPlayerAtSpawnpoint

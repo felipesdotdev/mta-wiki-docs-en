@@ -1,12 +1,12 @@
 ---
-doc_id: "mta-wiki:9403"
+doc_id: "mta-wiki:13775"
 title: "Resource : DGS"
-source_title: "Resource:DGS"
-source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ADGS"
+source_title: "Resource:Dgs"
+source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ADgs"
 revision_id: 82740
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:17:11.221123+00:00"
+generated_at: "2026-07-26T16:17:11.642055+00:00"
 ---
 
 # Resource : DGS

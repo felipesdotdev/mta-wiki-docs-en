@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Vending"
 revision_id: 73233
 language: "en"
 categories: ["Scripting_Concepts"]
-generated_at: "2026-07-26T16:16:53.797706+00:00"
+generated_at: "2026-07-26T16:17:05.278258+00:00"
 ---
 
 # Vending

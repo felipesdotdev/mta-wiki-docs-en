@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Version_History"
 revision_id: 77645
 language: "en"
 categories: ["Historical"]
-generated_at: "2026-07-26T16:16:54.146642+00:00"
+generated_at: "2026-07-26T16:17:05.680567+00:00"
 ---
 
 # Version History

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ASqlbans"
 revision_id: 25324
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:17:00.153928+00:00"
+generated_at: "2026-07-26T16:17:14.516279+00:00"
 ---
 
 # Resource : Sqlbans

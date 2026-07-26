@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/XML_Syntax_Examples"
 revision_id: 14084
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:55.768930+00:00"
+generated_at: "2026-07-26T16:17:07.555846+00:00"
 ---
 
 # XML Syntax Examples

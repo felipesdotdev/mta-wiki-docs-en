@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ASpawnmanager/setSpa
 revision_id: 14040
 language: "en"
 categories: ["Server_functions"]
-generated_at: "2026-07-26T16:17:00.097940+00:00"
+generated_at: "2026-07-26T16:17:14.469100+00:00"
 ---
 
 # Resource : Spawnmanager/setSpawnpointRotation

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AStealth"
 revision_id: 30845
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:17:00.178111+00:00"
+generated_at: "2026-07-26T16:17:14.540696+00:00"
 ---
 
 # Resource : Stealth

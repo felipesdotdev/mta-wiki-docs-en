@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ARDX"
 revision_id: 75954
 language: "en"
 categories: ["Changes_in_1.6.0"]
-generated_at: "2026-07-26T16:16:59.176957+00:00"
+generated_at: "2026-07-26T16:17:13.576981+00:00"
 ---
 
 # Resource : RDX

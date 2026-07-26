@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ACustomWidgets"
 revision_id: 67761
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:59.136271+00:00"
+generated_at: "2026-07-26T16:17:10.643179+00:00"
 ---
 
 # Resource : CustomWidgets

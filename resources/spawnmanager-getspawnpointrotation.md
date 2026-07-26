@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ASpawnmanager/getSpa
 revision_id: 14034
 language: "en"
 categories: ["Server_functions"]
-generated_at: "2026-07-26T16:17:00.046553+00:00"
+generated_at: "2026-07-26T16:17:14.423054+00:00"
 ---
 
 # Resource : Spawnmanager/getSpawnpointRotation

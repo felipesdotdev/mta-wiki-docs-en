@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AInterstate69"
 revision_id: 31564
 language: "en"
 categories: ["Outdated_Pages", "Resource"]
-generated_at: "2026-07-26T16:17:02.089701+00:00"
+generated_at: "2026-07-26T16:17:13.068176+00:00"
 ---
 
 # Resource : Interstate69

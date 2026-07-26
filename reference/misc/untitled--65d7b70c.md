@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%D8%A7%D9%84%D9%84%D8%BA%D9%87
 revision_id: 80604
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:58.061784+00:00"
+generated_at: "2026-07-26T16:17:09.696043+00:00"
 ---
 
 # AR/الصفحه الرئيسيه

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Weapon_Flags"
 revision_id: 34580
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:54.965659+00:00"
+generated_at: "2026-07-26T16:17:06.680145+00:00"
 ---
 
 # Weapon Flags

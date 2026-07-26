@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AEntityData"
 revision_id: 73705
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:17:01.087090+00:00"
+generated_at: "2026-07-26T16:17:12.258750+00:00"
 ---
 
 # Resource : EntityData

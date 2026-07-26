@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Upgrading_from_MTA%3ARace"
 revision_id: 69350
 language: "en"
 categories: ["Historical", "Support"]
-generated_at: "2026-07-26T16:16:50.906800+00:00"
+generated_at: "2026-07-26T16:17:01.723448+00:00"
 ---
 
 # Upgrading from MTA:Race

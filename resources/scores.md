@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AScores"
 revision_id: 30871
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:59.878634+00:00"
+generated_at: "2026-07-26T16:17:14.280215+00:00"
 ---
 
 # Resource : Scores

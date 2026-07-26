@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AFPSRTS/Brief"
 revision_id: 8725
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:17:01.279722+00:00"
+generated_at: "2026-07-26T16:17:12.398497+00:00"
 ---
 
 # Resource : FPSRTS/Brief

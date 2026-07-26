@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%D9%85%D9%82%D8%AF%D9%85%D9%87
 revision_id: 74417
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:58.249388+00:00"
+generated_at: "2026-07-26T16:17:09.852422+00:00"
 ---
 
 # AR/مقدمه في البرمجه

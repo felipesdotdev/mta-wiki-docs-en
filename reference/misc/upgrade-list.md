@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Upgrade_list"
 revision_id: 46096
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:50.889875+00:00"
+generated_at: "2026-07-26T16:17:01.702278+00:00"
 ---
 
 # Upgrade list

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ARU/Editor"
 revision_id: 19051
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:59.266702+00:00"
+generated_at: "2026-07-26T16:17:13.713928+00:00"
 ---
 
 # Resource : RU/Editor

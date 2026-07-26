@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AEditor"
 revision_id: 78918
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:17:00.873029+00:00"
+generated_at: "2026-07-26T16:17:12.111513+00:00"
 ---
 
 # Resource : Editor

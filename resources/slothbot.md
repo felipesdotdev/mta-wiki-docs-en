@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ASlothbot"
 revision_id: 71588
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:17:00.003699+00:00"
+generated_at: "2026-07-26T16:17:14.388654+00:00"
 ---
 
 # Slothman/Slothbot

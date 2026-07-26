@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Vehicle_default_colors"
 revision_id: 19454
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:53.383206+00:00"
+generated_at: "2026-07-26T16:17:04.640339+00:00"
 ---
 
 # Vehicle default colors

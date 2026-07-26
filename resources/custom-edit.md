@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ACustom_edit"
 revision_id: 79895
 language: "en"
 categories: ["Utility_templates", "Client_events", "Resource"]
-generated_at: "2026-07-26T16:16:59.337776+00:00"
+generated_at: "2026-07-26T16:17:10.830809+00:00"
 ---
 
 # Resource : Custom edit

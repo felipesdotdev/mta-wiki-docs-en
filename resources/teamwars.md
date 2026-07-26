@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ATeamwars"
 revision_id: 14068
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:17:00.195243+00:00"
+generated_at: "2026-07-26T16:17:14.553118+00:00"
 ---
 
 # Resource : Teamwars

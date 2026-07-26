@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3APerformancebrowser"
 revision_id: 74603
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:59.137428+00:00"
+generated_at: "2026-07-26T16:17:13.526826+00:00"
 ---
 
 # Resource : Performancebrowser

@@ -1,11 +1,72 @@
 {
-  "source": "https://wiki.multitheftauto.com/wiki/Main_Page",
-  "language": "en",
-  "source_inventory_pages": 4808,
-  "cached_source_pages": 4804,
-  "emitted_markdown_pages": 4799,
-  "notes": [
-    "Four inventory entries were no longer available from the MediaWiki API at collection time.",
-    "Non-English translations were excluded by title/category rules."
+  "generated_at": "2026-07-26T16:17:14.825139+00:00",
+  "inventory_pages": 4808,
+  "markdown_pages": 4762,
+  "excluded_non_english": 42,
+  "errors": [
+    {
+      "title": "Multi Theft Auto: Wiki talk:Multi Theft Auto",
+      "error": "No parse payload for Multi Theft Auto: Wiki talk:Multi Theft Auto: {'error': {'code': 'missingtitle', 'info': \"The page you specified doesn't exist.\", 'docref': 'See https://wiki.multitheftauto.com/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/&gt; for notice of API deprecations and breaking changes.'}}"
+    },
+    {
+      "title": "OutLinedRectangle",
+      "error": "API failure after 6 attempts: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "title": "SetPedClothes",
+      "error": "API failure after 6 attempts: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "title": "SetWantedLevel",
+      "error": "API failure after 6 attempts: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "title": "SetWaterColor",
+      "error": "API failure after 6 attempts: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "title": "Spawnmanager/createSpawnpoint",
+      "error": "API failure after 6 attempts: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "title": "Tango Icon List",
+      "error": "No parse payload for Tango Icon List: {'error': {'code': 'missingtitle', 'info': \"The page you specified doesn't exist.\", 'docref': 'See https://wiki.multitheftauto.com/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/&gt; for notice of API deprecations and breaking changes.'}}"
+    },
+    {
+      "title": "Team/AMG",
+      "error": "No parse payload for Team/AMG: {'error': {'code': 'missingtitle', 'info': \"The page you specified doesn't exist.\", 'docref': 'See https://wiki.multitheftauto.com/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/&gt; for notice of API deprecations and breaking changes.'}}"
+    },
+    {
+      "title": "Task",
+      "error": "API failure after 6 attempts: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "title": "Traffic light states",
+      "error": "API failure after 6 attempts: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "title": "UsePickup",
+      "error": "API failure after 6 attempts: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "title": "Vector3D class",
+      "error": "API failure after 6 attempts: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "title": "Where to buy GTASA",
+      "error": "API failure after 6 attempts: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "title": "XmlFindSubNode",
+      "error": "API failure after 6 attempts: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "title": "Resource:DxDraw3DText",
+      "error": "API failure after 6 attempts: HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "namespaces": [
+    0,
+    100
   ]
 }

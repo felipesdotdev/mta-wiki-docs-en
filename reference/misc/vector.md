@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Vector"
 revision_id: 58847
 language: "en"
 categories: ["OOP"]
-generated_at: "2026-07-26T16:16:51.854932+00:00"
+generated_at: "2026-07-26T16:17:02.862183+00:00"
 ---
 
 # Vector

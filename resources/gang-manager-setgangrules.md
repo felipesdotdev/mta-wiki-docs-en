@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AGang_Manager/setGan
 revision_id: 40180
 language: "en"
 categories: ["Server_functions"]
-generated_at: "2026-07-26T16:17:01.550834+00:00"
+generated_at: "2026-07-26T16:17:12.621344+00:00"
 ---
 
 # Resource : Gang Manager/setGangRules

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ASettingsmanager"
 revision_id: 53277
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:59.886649+00:00"
+generated_at: "2026-07-26T16:17:14.288029+00:00"
 ---
 
 # Resource : Settingsmanager

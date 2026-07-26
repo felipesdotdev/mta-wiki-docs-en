@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ASamurai%27s_Library
 revision_id: 37409
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:59.815068+00:00"
+generated_at: "2026-07-26T16:17:14.214800+00:00"
 ---
 
 # Resource : Samurai's Library

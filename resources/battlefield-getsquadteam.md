@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ABattlefield/getSqua
 revision_id: 31076
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:58.596299+00:00"
+generated_at: "2026-07-26T16:17:10.159712+00:00"
 ---
 
 # Resource : Battlefield/getSquadTeam

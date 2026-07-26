@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ARU/Admin"
 revision_id: 47189
 language: "en"
 categories: ["RU/Resource", "Понятия_скриптинга"]
-generated_at: "2026-07-26T16:16:59.185950+00:00"
+generated_at: "2026-07-26T16:17:13.586925+00:00"
 ---
 
 # RU/Resource:Admin

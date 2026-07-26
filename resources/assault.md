@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AAssault"
 revision_id: 50186
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:58.513232+00:00"
+generated_at: "2026-07-26T16:17:10.094929+00:00"
 ---
 
 # Resource : Assault

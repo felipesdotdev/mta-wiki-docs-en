@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Zombiesystem_script"
 revision_id: 37747
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:56.735664+00:00"
+generated_at: "2026-07-26T16:17:08.525724+00:00"
 ---
 
 # Zombiesystem script

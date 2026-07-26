@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AAdmin"
 revision_id: 79102
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:58.386609+00:00"
+generated_at: "2026-07-26T16:17:09.989615+00:00"
 ---
 
 # Resource : Admin

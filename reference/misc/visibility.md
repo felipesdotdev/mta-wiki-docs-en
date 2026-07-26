@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Visibility"
 revision_id: 74154
 language: "en"
 categories: ["Scripting_Concepts"]
-generated_at: "2026-07-26T16:16:54.451146+00:00"
+generated_at: "2026-07-26T16:17:05.996076+00:00"
 ---
 
 # Visibility

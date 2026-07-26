@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ASpawnmanager/getBli
 revision_id: 18270
 language: "en"
 categories: ["Server_functions", "Client_functions"]
-generated_at: "2026-07-26T16:17:00.034254+00:00"
+generated_at: "2026-07-26T16:17:14.416109+00:00"
 ---
 
 # Resource : Blipstreamer/getBlipStreamRadius

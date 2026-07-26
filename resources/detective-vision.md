@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ADetective_vision"
 revision_id: 27316
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:59.931982+00:00"
+generated_at: "2026-07-26T16:17:11.280342+00:00"
 ---
 
 # Resource : Detective vision

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Tutorial/Writing_Gamemodes"
 revision_id: 65894
 language: "en"
 categories: ["Tutorials"]
-generated_at: "2026-07-26T16:16:50.447171+00:00"
+generated_at: "2026-07-26T16:17:01.106093+00:00"
 ---
 
 # Writing Gamemodes

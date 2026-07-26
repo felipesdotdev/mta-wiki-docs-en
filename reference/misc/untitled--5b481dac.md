@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%D0%A1%D0%BA%D0%B8%D0%BD%D1%8B
 revision_id: 74779
 language: "en"
 categories: ["Списки_ID"]
-generated_at: "2026-07-26T16:16:57.809988+00:00"
+generated_at: "2026-07-26T16:17:09.487623+00:00"
 ---
 
 # Скины персонажей

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Wst%C4%99p_do_pisania_modu%C5%
 revision_id: 74848
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:55.657745+00:00"
+generated_at: "2026-07-26T16:17:07.437945+00:00"
 ---
 
 # Wstęp do pisania modułów

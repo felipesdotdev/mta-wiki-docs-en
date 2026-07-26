@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%D8%AF%D9%84%D9%8A%D9%84_%D8%A
 revision_id: 80606
 language: "en"
 categories: ["Support"]
-generated_at: "2026-07-26T16:16:55.386707+00:00"
+generated_at: "2026-07-26T16:17:09.780380+00:00"
 ---
 
 # AR/دليل اللاعب

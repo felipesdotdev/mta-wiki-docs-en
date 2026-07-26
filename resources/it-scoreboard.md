@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AIT/Scoreboard"
 revision_id: 17376
 language: "en"
 categories: ["IT/Pagine_italiane", "100%", "IT/Risorse"]
-generated_at: "2026-07-26T16:17:01.748992+00:00"
+generated_at: "2026-07-26T16:17:12.777002+00:00"
 ---
 
 # Resource : IT/Scoreboard

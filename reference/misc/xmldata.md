@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/XmlData"
 revision_id: 64324
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:55.930412+00:00"
+generated_at: "2026-07-26T16:17:07.736712+00:00"
 ---
 
 # XmlData

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Zdarzenia_po_stronie_Serwera"
 revision_id: 77335
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:56.520636+00:00"
+generated_at: "2026-07-26T16:17:08.386839+00:00"
 ---
 
 # Server Scripting Events

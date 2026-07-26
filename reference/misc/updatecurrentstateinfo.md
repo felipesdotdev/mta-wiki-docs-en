@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/UpdateCurrentStateInfo"
 revision_id: 50997
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:50.814800+00:00"
+generated_at: "2026-07-26T16:17:01.598559+00:00"
 ---
 
 # UpdateCurrentStateInfo

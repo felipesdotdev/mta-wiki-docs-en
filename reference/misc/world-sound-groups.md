@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/World_sound_groups"
 revision_id: 50800
 language: "en"
 categories: ["ID_Lists"]
-generated_at: "2026-07-26T16:16:55.600936+00:00"
+generated_at: "2026-07-26T16:17:07.378885+00:00"
 ---
 
 # World sound groups

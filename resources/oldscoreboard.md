@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AOldScoreboard"
 revision_id: 79073
 language: "en"
 categories: ["Resource", "Historical"]
-generated_at: "2026-07-26T16:16:59.042491+00:00"
+generated_at: "2026-07-26T16:17:13.411325+00:00"
 ---
 
 # Resource : OldScoreboard

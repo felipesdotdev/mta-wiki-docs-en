@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%E8%B4%A6%E6%88%B7"
 revision_id: 69285
 language: "en"
 categories: ["Translated/Scripting_Concepts"]
-generated_at: "2026-07-26T16:16:58.275256+00:00"
+generated_at: "2026-07-26T16:17:09.883543+00:00"
 ---
 
 # 账户

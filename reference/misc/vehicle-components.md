@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Vehicle_Components"
 revision_id: 80683
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:52.558773+00:00"
+generated_at: "2026-07-26T16:17:03.627444+00:00"
 ---
 
 # Vehicle Components

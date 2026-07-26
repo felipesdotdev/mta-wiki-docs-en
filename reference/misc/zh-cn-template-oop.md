@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Zh-cn/Template%3AOOP"
 revision_id: 68577
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:56.650390+00:00"
+generated_at: "2026-07-26T16:17:08.444204+00:00"
 ---
 
 # Template : OOP ZH-CN

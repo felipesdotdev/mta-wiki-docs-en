@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Xml_node"
 revision_id: 76900
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:56.351620+00:00"
+generated_at: "2026-07-26T16:17:08.215161+00:00"
 ---
 
 # Xmlnode

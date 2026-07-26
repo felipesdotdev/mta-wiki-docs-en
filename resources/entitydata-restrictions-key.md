@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AEntityData/restrict
 revision_id: 73067
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:17:01.113164+00:00"
+generated_at: "2026-07-26T16:17:12.281628+00:00"
 ---
 
 # Resource : EntityData/restrictions key

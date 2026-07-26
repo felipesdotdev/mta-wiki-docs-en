@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Vid"
 revision_id: 82730
 language: "en"
 categories: ["ID_Lists"]
-generated_at: "2026-07-26T16:16:54.446865+00:00"
+generated_at: "2026-07-26T16:17:05.991597+00:00"
 ---
 
 # Vehicle IDs

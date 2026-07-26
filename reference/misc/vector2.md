@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Vector2"
 revision_id: 77239
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:52.128083+00:00"
+generated_at: "2026-07-26T16:17:03.164270+00:00"
 ---
 
 # Vector/Vector2

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Water"
 revision_id: 70675
 language: "en"
 categories: ["Element_Types"]
-generated_at: "2026-07-26T16:16:54.729739+00:00"
+generated_at: "2026-07-26T16:17:06.376332+00:00"
 ---
 
 # Element/Water

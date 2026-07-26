@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AMaplimits"
 revision_id: 30739
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:58.940812+00:00"
+generated_at: "2026-07-26T16:17:13.301413+00:00"
 ---
 
 # Resource : Maplimits

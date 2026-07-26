@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AResedit"
 revision_id: 30922
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:59.743479+00:00"
+generated_at: "2026-07-26T16:17:14.151210+00:00"
 ---
 
 # Resource : Resedit

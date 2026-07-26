@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AIT/Admin"
 revision_id: 49954
 language: "en"
 categories: ["IT/Risorse", "IT/Concetti_di_scripting", "IT/Pagine_italiane"]
-generated_at: "2026-07-26T16:17:01.656309+00:00"
+generated_at: "2026-07-26T16:17:12.705203+00:00"
 ---
 
 # IT/Resource:Admin

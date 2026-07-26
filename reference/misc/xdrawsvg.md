@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/XDrawSVG"
 revision_id: 82403
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:55.735297+00:00"
+generated_at: "2026-07-26T16:17:07.524195+00:00"
 ---
 
 # DxDrawSVG

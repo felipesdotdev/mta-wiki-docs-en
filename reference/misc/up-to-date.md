@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Up-to-date"
 revision_id: 73803
 language: "en"
 categories: ["Support"]
-generated_at: "2026-07-26T16:16:50.785307+00:00"
+generated_at: "2026-07-26T16:17:01.569834+00:00"
 ---
 
 # Up-to-date

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ADxDraw3DText"
 revision_id: 53300
 language: "en"
 categories: ["Client_functions"]
-generated_at: "2026-07-26T16:17:00.340936+00:00"
+generated_at: "2026-07-26T16:17:11.686801+00:00"
 ---
 
 # Resource : DxDraw3DText

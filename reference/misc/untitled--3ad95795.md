@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%D0%AE%D0%BD%D0%B8%D1%82"
 revision_id: 51318
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:58.008200+00:00"
+generated_at: "2026-07-26T16:17:09.653411+00:00"
 ---
 
 # Юнит

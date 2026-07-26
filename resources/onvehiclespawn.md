@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AOnVehicleSpawn"
 revision_id: 73065
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:59.086806+00:00"
+generated_at: "2026-07-26T16:17:13.465621+00:00"
 ---
 
 # Resource : OnElementSpawn

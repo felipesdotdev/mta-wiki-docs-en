@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ARU/Editor/Plugins"
 revision_id: 47188
 language: "en"
 categories: ["RU/Resource"]
-generated_at: "2026-07-26T16:16:59.382988+00:00"
+generated_at: "2026-07-26T16:17:13.863023+00:00"
 ---
 
 # RU/Resource:Editor/Plugins

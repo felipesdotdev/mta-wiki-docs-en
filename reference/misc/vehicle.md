@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Vehicle"
 revision_id: 73203
 language: "en"
 categories: ["Element_Types"]
-generated_at: "2026-07-26T16:16:52.373533+00:00"
+generated_at: "2026-07-26T16:17:03.426353+00:00"
 ---
 
 # Element/Vehicle

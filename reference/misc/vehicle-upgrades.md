@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Vehicle_Upgrades"
 revision_id: 78851
 language: "en"
 categories: ["ID_Lists"]
-generated_at: "2026-07-26T16:16:53.321125+00:00"
+generated_at: "2026-07-26T16:17:04.568492+00:00"
 ---
 
 # Vehicle Upgrades

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/XML"
 revision_id: 49243
 language: "en"
 categories: ["Scripting_Concepts"]
-generated_at: "2026-07-26T16:16:55.748582+00:00"
+generated_at: "2026-07-26T16:17:07.537364+00:00"
 ---
 
 # XML

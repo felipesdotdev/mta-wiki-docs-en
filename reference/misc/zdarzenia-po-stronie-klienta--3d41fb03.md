@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Zdarzenia_po_stronie_klienta"
 revision_id: 79539
 language: "en"
 categories: ["Outdated_Pages"]
-generated_at: "2026-07-26T16:16:56.585516+00:00"
+generated_at: "2026-07-26T16:17:08.436739+00:00"
 ---
 
 # Zdarzenia po stronie klienta

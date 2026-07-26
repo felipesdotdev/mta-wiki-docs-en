@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ACustomblips"
 revision_id: 50141
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:59.359235+00:00"
+generated_at: "2026-07-26T16:17:10.848394+00:00"
 ---
 
 # Resource : Customblips

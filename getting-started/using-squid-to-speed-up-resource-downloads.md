@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Using_Squid_to_speed_up_resour
 revision_id: 54537
 language: "en"
 categories: ["Tutorials"]
-generated_at: "2026-07-26T16:16:51.112211+00:00"
+generated_at: "2026-07-26T16:17:02.010270+00:00"
 ---
 
 # Using Squid to speed up resource downloads

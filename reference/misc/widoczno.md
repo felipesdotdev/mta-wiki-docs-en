@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Widoczno%C5%9B%C4%87"
 revision_id: 74153
 language: "en"
 categories: ["Scripting_Concepts"]
-generated_at: "2026-07-26T16:16:55.219855+00:00"
+generated_at: "2026-07-26T16:17:06.954796+00:00"
 ---
 
 # Widoczność

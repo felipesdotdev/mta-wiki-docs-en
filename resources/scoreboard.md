@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AScoreboard"
 revision_id: 79087
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:59.863815+00:00"
+generated_at: "2026-07-26T16:17:14.268183+00:00"
 ---
 
 # Resource : Dxscoreboard

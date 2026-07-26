@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Using_A_0.5_Server_With_Screen
 revision_id: 31510
 language: "en"
 categories: ["MTA_0.5", "Historical"]
-generated_at: "2026-07-26T16:16:51.105559+00:00"
+generated_at: "2026-07-26T16:17:02.002017+00:00"
 ---
 
 # Using A 0.5 Server With Screen

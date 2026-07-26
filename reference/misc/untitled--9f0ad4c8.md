@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%D0%A1%D1%82%D1%80%D0%BE%D0%BA
 revision_id: 70744
 language: "en"
 categories: ["Понятия_скриптинга"]
-generated_at: "2026-07-26T16:16:57.838954+00:00"
+generated_at: "2026-07-26T16:17:09.508540+00:00"
 ---
 
 # Строка

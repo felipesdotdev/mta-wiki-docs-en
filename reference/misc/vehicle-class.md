@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Vehicle_class"
 revision_id: 37812
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:53.361245+00:00"
+generated_at: "2026-07-26T16:17:04.615327+00:00"
 ---
 
 # Vehicle class

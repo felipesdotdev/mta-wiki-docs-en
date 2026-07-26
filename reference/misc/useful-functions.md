@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Useful_Functions"
 revision_id: 75624
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:51.071646+00:00"
+generated_at: "2026-07-26T16:17:01.955071+00:00"
 ---
 
 # Useful Functions

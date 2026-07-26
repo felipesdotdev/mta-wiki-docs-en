@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AExp_system"
 revision_id: 37322
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:17:01.242650+00:00"
+generated_at: "2026-07-26T16:17:12.375902+00:00"
 ---
 
 # Resource : Exp system

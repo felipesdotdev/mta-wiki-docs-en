@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AGang_Manager/getGan
 revision_id: 40167
 language: "en"
 categories: ["Server_functions"]
-generated_at: "2026-07-26T16:17:01.418803+00:00"
+generated_at: "2026-07-26T16:17:12.512890+00:00"
 ---
 
 # Resource : Gang Manager/getGangPermissions

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ACustom_billboards"
 revision_id: 50153
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:59.197889+00:00"
+generated_at: "2026-07-26T16:17:10.705635+00:00"
 ---
 
 # Resource : Custom billboards

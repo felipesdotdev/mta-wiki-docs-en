@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%D0%AD%D0%BB%D0%B5%D0%BC%D0%B5
 revision_id: 70656
 language: "en"
 categories: ["Элемент"]
-generated_at: "2026-07-26T16:16:57.875123+00:00"
+generated_at: "2026-07-26T16:17:09.538087+00:00"
 ---
 
 # Category : Игрок

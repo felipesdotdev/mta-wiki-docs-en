@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ABlipstreamer/setBli
 revision_id: 18281
 language: "en"
 categories: ["Server_functions", "Client_functions"]
-generated_at: "2026-07-26T16:16:58.640558+00:00"
+generated_at: "2026-07-26T16:17:10.194147+00:00"
 ---
 
 # Resource : Blipstreamer/setBlipStreamable

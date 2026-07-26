@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AFixing"
 revision_id: 75954
 language: "en"
 categories: ["Changes_in_1.6.0"]
-generated_at: "2026-07-26T16:17:01.329689+00:00"
+generated_at: "2026-07-26T16:17:12.435783+00:00"
 ---
 
 # Resource : RDX

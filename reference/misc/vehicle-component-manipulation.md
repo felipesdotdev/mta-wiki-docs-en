@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Vehicle_component_manipulation
 revision_id: 61104
 language: "en"
 categories: ["ID_Lists"]
-generated_at: "2026-07-26T16:16:53.376786+00:00"
+generated_at: "2026-07-26T16:17:04.632740+00:00"
 ---
 
 # Vehicle component manipulation

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ABattlefield/setPlay
 revision_id: 31074
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:58.609249+00:00"
+generated_at: "2026-07-26T16:17:10.171007+00:00"
 ---
 
 # Resource : Battlefield/setPlayerSquad

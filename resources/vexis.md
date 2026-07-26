@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AVEXIS"
 revision_id: 82767
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:17:00.218310+00:00"
+generated_at: "2026-07-26T16:17:14.574479+00:00"
 ---
 
 # Resource : VEXIS

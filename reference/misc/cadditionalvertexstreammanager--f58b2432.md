@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/~CAdditionalVertexStreamManage
 revision_id: 51008
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:56.740341+00:00"
+generated_at: "2026-07-26T16:17:08.531013+00:00"
 ---
 
 # ~CAdditionalVertexStreamManager

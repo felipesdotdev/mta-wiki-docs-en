@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B8
 revision_id: 74857
 language: "en"
 categories: ["Списки_ID"]
-generated_at: "2026-07-26T16:16:57.703544+00:00"
+generated_at: "2026-07-26T16:17:09.423992+00:00"
 ---
 
 # Оружие

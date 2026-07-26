@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ASpawnmanager"
 revision_id: 30873
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:17:00.013008+00:00"
+generated_at: "2026-07-26T16:17:14.397443+00:00"
 ---
 
 # Resource : Spawnmanager

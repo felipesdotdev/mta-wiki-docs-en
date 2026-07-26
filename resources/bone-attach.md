@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ABone_attach"
 revision_id: 62833
 language: "en"
 categories: ["Utility_templates", "Resource"]
-generated_at: "2026-07-26T16:16:58.736822+00:00"
+generated_at: "2026-07-26T16:17:10.279369+00:00"
 ---
 
 # Resource : Bone attach

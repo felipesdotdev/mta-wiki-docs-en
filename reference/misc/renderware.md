@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5
 revision_id: 74742
 language: "en"
 categories: ["GTA_Игры"]
-generated_at: "2026-07-26T16:16:57.789966+00:00"
+generated_at: "2026-07-26T16:17:09.475998+00:00"
 ---
 
 # Система плагинов RenderWare

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AHandling_Editor"
 revision_id: 82190
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:17:01.590813+00:00"
+generated_at: "2026-07-26T16:17:12.659063+00:00"
 ---
 
 # Resource : Hedit

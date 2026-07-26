@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Vending/Table"
 revision_id: 45289
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:53.908546+00:00"
+generated_at: "2026-07-26T16:17:05.410673+00:00"
 ---
 
 # Vending/Table

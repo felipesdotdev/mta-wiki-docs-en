@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Vehicle_variants"
 revision_id: 78852
 language: "en"
 categories: ["ID_Lists"]
-generated_at: "2026-07-26T16:16:53.426647+00:00"
+generated_at: "2026-07-26T16:17:04.690244+00:00"
 ---
 
 # Vehicle variants

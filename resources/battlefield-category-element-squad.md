@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ABattlefield/Categor
 revision_id: 22987
 language: "en"
 categories: []
-generated_at: "2026-07-26T16:16:58.532525+00:00"
+generated_at: "2026-07-26T16:17:10.108667+00:00"
 ---
 
 # Resource : Battlefield/Squad

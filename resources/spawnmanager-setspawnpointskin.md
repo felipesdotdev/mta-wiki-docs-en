@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ASpawnmanager/setSpa
 revision_id: 14042
 language: "en"
 categories: ["Server_functions"]
-generated_at: "2026-07-26T16:17:00.105844+00:00"
+generated_at: "2026-07-26T16:17:14.476051+00:00"
 ---
 
 # Resource : Spawnmanager/setSpawnpointSkin

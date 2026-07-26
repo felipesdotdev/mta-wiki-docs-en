@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ADatastore"
 revision_id: 68091
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:59.904541+00:00"
+generated_at: "2026-07-26T16:17:11.256882+00:00"
 ---
 
 # Resource : Datastore

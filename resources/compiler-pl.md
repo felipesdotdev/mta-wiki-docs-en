@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ACompiler/PL"
 revision_id: 72991
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:58.896879+00:00"
+generated_at: "2026-07-26T16:17:10.412345+00:00"
 ---
 
 # Resource : Compiler/PL

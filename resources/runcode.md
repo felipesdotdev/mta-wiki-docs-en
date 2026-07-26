@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3ARuncode"
 revision_id: 44802
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:16:59.800244+00:00"
+generated_at: "2026-07-26T16:17:14.201265+00:00"
 ---
 
 # Resource : Runcode

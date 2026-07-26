@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%81
 revision_id: 47149
 language: "en"
 categories: ["Changes_in_1.6.0", "Понятия_скриптинга"]
-generated_at: "2026-07-26T16:16:57.544269+00:00"
+generated_at: "2026-07-26T16:17:09.307321+00:00"
 ---
 
 # Классы MTA

@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AInteriors"
 revision_id: 21402
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:17:02.005578+00:00"
+generated_at: "2026-07-26T16:17:13.004146+00:00"
 ---
 
 # Resource : Interiors

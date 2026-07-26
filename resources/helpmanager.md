@@ -6,7 +6,7 @@ source_url: "https://wiki.multitheftauto.com/wiki/Resource%3AHelpmanager"
 revision_id: 79055
 language: "en"
 categories: ["Resource"]
-generated_at: "2026-07-26T16:17:01.634632+00:00"
+generated_at: "2026-07-26T16:17:12.687850+00:00"
 ---
 
 # Resource : Helpmanager
