@@ -1,5 +1,5 @@
 {
-  "changed": 0,
+  "changed": 2,
   "error_count": 0,
   "errors": [],
   "inventory": 4172,
@@ -9,10 +9,10 @@
     "deduplicated": 0,
     "indexed": 4159,
     "removed": 0,
-    "repaired_links": 30,
+    "repaired_links": 0,
     "rewritten": 0
   },
-  "removed": 26,
+  "removed": 0,
   "source": "https://wiki.multitheftauto.com/wiki/Main_Page",
-  "written": 0
+  "written": 2
 }

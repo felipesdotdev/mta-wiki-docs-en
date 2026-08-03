@@ -3,7 +3,7 @@ doc_id: "mta-wiki:14500"
 title: "TestSphereAgainstWorld"
 source_title: "TestSphereAgainstWorld"
 source_url: "https://wiki.multitheftauto.com/wiki/TestSphereAgainstWorld"
-revision_id: 81523
+revision_id: 82860
 language: "en"
 categories: ["Client_functions", "Changes_in_1.6.0", "Utility_templates", "Needs_Example"]
 ---
@@ -18,12 +18,12 @@ The function checks whether there is an object within the given radius and retur
 
 Return values labelled for ease of reference.
 
-```
+```lua
 bool               -- hit
 element            -- hitElement
+int                -- worldModelID
 float float float  -- worldModelPositionX,Y,Z
 float float float  -- worldModelRotationX,Y,Z
-int                -- worldModelID
 int                -- worldLODModelID
 string             -- entity type (vehicle, ped, object etc.)
                  testSphereAgainstWorld ( float startX, float startY, float startZ, 
@@ -49,17 +49,17 @@ string             -- entity type (vehicle, ped, object etc.)
 
 ### Optional Arguments
 
-*NOTE:* When using optional arguments, you might need to supply all arguments before the one you wish to use. For more information on optional arguments, see [optional arguments](https://wiki.multitheftauto.com/index.php?search=optional%20arguments).
+*NOTE:* When using optional arguments, you might need to supply all arguments before the one you wish to use. For more information on optional arguments, see [optional arguments](https://wiki.multitheftauto.com/wiki/Optional_arguments).
 
 - **ignoredElement:** Specifies the element to be excluded from collision detection within the sphere.
 
-- **checkBuildings:** Specifies whether [buildings](https://wiki.multitheftauto.com/index.php?search=buildings) should be detected, i.e., elements of the default GTA map or those created using [createBuilding](mta://scripting/shared/functions/createbuilding.md).
+- **checkBuildings:** Specifies whether [buildings](https://wiki.multitheftauto.com/wiki/Building) should be detected, i.e., elements of the default GTA map or those created using [createBuilding](mta://scripting/shared/functions/createbuilding.md).
 
-- **checkVehicles:** Specifies whether [vehicles](https://wiki.multitheftauto.com/index.php?search=vehicles) should be detected.
+- **checkVehicles:** Specifies whether [vehicles](https://wiki.multitheftauto.com/wiki/Vehicle) should be detected.
 
-- **checkPeds:** Specifies whether [peds](https://wiki.multitheftauto.com/index.php?search=peds) (including [players](https://wiki.multitheftauto.com/index.php?search=players)) should be detected.
+- **checkPeds:** Specifies whether [peds](https://wiki.multitheftauto.com/wiki/Ped) (including [players](https://wiki.multitheftauto.com/wiki/Player)) should be detected.
 
-- **checkObjects:** Specifies whether [objects](https://wiki.multitheftauto.com/index.php?search=objects) should be detected.
+- **checkObjects:** Specifies whether [objects](https://wiki.multitheftauto.com/wiki/Object) should be detected.
 
 - **checkDummies:** Specifies whether internal GTA dummies should be detected. These are not used in the current MTA version so this argument can be set to *false*.
 
@@ -73,11 +73,11 @@ The **modelID**, **lodID**, **worldModelPositionX,Y,Z**, **worldModelRotationX,Y
 
 - **hitElement:** the MTA element hit if any, *nil* otherwise.
 
+- **modelID:** The ID of the element.
+
 - **worldModelPositionX,Y,Z:** World position of the detected element.
 
 - **worldModelRotationX,Y,Z:** World rotation of the detected element.
-
-- **modelID:** The ID of the element.
 
 - **lodID:** The ID of the element's LOD (or 0).
 
