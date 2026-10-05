@@ -3,7 +3,7 @@ doc_id: "mta-wiki:14293"
 title: "MTA:SA Developers: Mobile"
 source_title: "MTA:SA Developers: Mobile"
 source_url: "https://wiki.multitheftauto.com/wiki/MTA%3ASA_Developers%3A_Mobile"
-revision_id: 82706
+revision_id: 82883
 language: "en"
 categories: []
 ---
@@ -19,7 +19,6 @@ MTA:SA Developers: Mobile — this is an improved version of the application [MT
 
 ## Features of the current version of the mobile application
 
- 
 MTA:SA developers: Mobile
 
 - Viewing MTA:SA forum news feed, participating in discussions, viewing forum content in details
@@ -186,6 +185,4 @@ You can contact the application developer:
 
 - In [created topic](https://forum.multitheftauto.com/topic/141940-mtasa-developers-mobile/) on the forum
 
-- Going to the [developer's website](https://limedev.ru/)
-
-- Via Discord @limedev.ru
+- Via Discord @timlimes

@@ -3,7 +3,7 @@ doc_id: "mta-wiki:6072"
 title: "TriggerLatentServerEvent"
 source_title: "TriggerLatentServerEvent"
 source_url: "https://wiki.multitheftauto.com/wiki/TriggerLatentServerEvent"
-revision_id: 82673
+revision_id: 82886
 language: "en"
 categories: ["Client_functions"]
 ---
@@ -14,7 +14,7 @@ This function is the same as [triggerServerEvent](mta://scripting/client/functio
 
 ## Syntax
 
-```
+```lua
 bool triggerLatentServerEvent ( string event, [int bandwidth=5000, bool persist=false,] element theElement, [arguments...] )
 ```
 
@@ -30,7 +30,7 @@ bool triggerLatentServerEvent ( string event, [int bandwidth=5000, bool persist=
 
 - **persist:** A bool indicating whether the transmission should be allowed to continue even after the resource that triggered it has since stopped.
 
-- **arguments...:** A list of arguments to trigger with the event. You can pass any Lua data type (except functions). You can also pass [elements](mta://reference/misc/element.md). The total amount of data should not exceed 100MB.
+- **arguments...:** A list of arguments to trigger with the event. You can pass any Lua data type (except functions). You can also pass [elements](mta://reference/misc/element.md). The total amount of data should not exceed 10MB.
 
 ### Returns
 
@@ -41,7 +41,7 @@ Returns *true* if the event trigger has been sent, *false* if invalid arguments 
 Click to collapse [-]
 Client
 
-```
+```lua
 if fileExists("text.txt") then
 	file = fileOpen("test.txt")						--Open a file (you can create it yourself).
 	local data = fileRead(file,100*1024*1024)				--Max 100 MB
@@ -53,7 +53,7 @@ end
 Click to collapse [-]
 Server
 
-```
+```lua
 addEvent("onReadFile",true)
 addEventHandler("onReadFile",root,function(data)
 	local file = fileCreate("text.txt")					--Save "data" into "text.txt"

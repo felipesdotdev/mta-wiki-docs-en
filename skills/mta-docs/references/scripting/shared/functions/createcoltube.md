@@ -3,7 +3,7 @@ doc_id: "mta-wiki:1807"
 title: "CreateColTube"
 source_title: "CreateColTube"
 source_url: "https://wiki.multitheftauto.com/wiki/CreateColTube"
-revision_id: 78556
+revision_id: 82868
 language: "en"
 categories: ["Server_functions", "Client_functions"]
 ---
@@ -18,7 +18,7 @@ This function creates a collision tube. This is a shape that has a position and 
 
 ## Syntax
 
-```
+```lua
 colshape createColTube ( float fX, float fY, float fZ, float fRadius, float fHeight )
 ```
 
@@ -40,7 +40,7 @@ colshape createColTube ( float fX, float fY, float fZ, float fRadius, float fHei
 
 ### Returns
 
-Returns a [colshape](https://wiki.multitheftauto.com/index.php?search=colshape) element if successful, *false* if invalid arguments were passed to the function.
+Returns a [colshape](https://wiki.multitheftauto.com/wiki/Colshape) element if successful, *false* if invalid arguments were passed to the function.
 
 ## Example
 
@@ -49,7 +49,7 @@ Server
 
 This example displays a chat message when a player enters the colshape and allows the colshape to be created using a console function *set_zone*.
 
-```
+```lua
 local theZone
 
 function shapeHit(thePlayer)

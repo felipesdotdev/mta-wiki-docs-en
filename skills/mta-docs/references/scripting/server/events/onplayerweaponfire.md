@@ -3,14 +3,14 @@ doc_id: "mta-wiki:9102"
 title: "OnPlayerWeaponFire"
 source_title: "OnPlayerWeaponFire"
 source_url: "https://wiki.multitheftauto.com/wiki/OnPlayerWeaponFire"
-revision_id: 82385
+revision_id: 82875
 language: "en"
 categories: ["Server_Events", "Changes_in_1.5.3"]
 ---
 
 # OnPlayerWeaponFire
 
-This event is called when a player fires a weapon.  This does not trigger for projectiles, melee weapons, or camera.
+This event is called when a player fires a weapon.  This does not trigger for projectiles, melee weapons, or camera. For projectiles use [onPlayerProjectileCreation](mta://scripting/server/events/onplayerprojectilecreation.md).
 
 | [[{{{image}}}\|link=\|]] | Note: This event works only with weapons which have enabled bullet sync. See Weapons for more information. Start and end coordinates will be near the center of the map if a player fires a single handed weapon while looking behind them (when the gun is pointed at the sky) |
 | --- | --- |
@@ -18,7 +18,7 @@ This event is called when a player fires a weapon.  This does not trigger for pr
 
 ## Parameters
 
-```
+```lua
 int weaponID, float endX, float endY, float endZ, element hitElement, float startX, float startY, float startZ
 ```
 
@@ -30,7 +30,7 @@ int weaponID, float endX, float endY, float endZ, element hitElement, float star
 
 - **endZ**: [float](mta://reference/misc/float.md) world Z coordinate representing the end point.
 
-- **hitElement**: an [element](mta://reference/misc/element.md) which was hit by a shot. Currently this can be only another [player](https://wiki.multitheftauto.com/index.php?search=player). **Note: hitElement could be incorrect and should not be relied upon.**
+- **hitElement**: an [element](mta://reference/misc/element.md) which was hit by a shot. Currently this can be only another [player](https://wiki.multitheftauto.com/wiki/Player). **Note: hitElement could be incorrect and should not be relied upon.**
 
 - **startX**: [float](mta://reference/misc/float.md) world X coordinate representing the start of the bullet. **Note: This is not the gun muzzle.**
 
@@ -40,13 +40,13 @@ int weaponID, float endX, float endY, float endZ, element hitElement, float star
 
 ## Source
 
-The [source](mta://reference/misc/event-system.md) of this event is the [player](https://wiki.multitheftauto.com/index.php?search=player) who fired the weapon.
+The [source](mta://reference/misc/event-system.md) of this event is the [player](https://wiki.multitheftauto.com/wiki/Player) who fired the weapon.
 
 ## Example
 
 This code creates explosions when the source players shoots.
 
-```
+```lua
 addEventHandler ("onPlayerWeaponFire", root, 
    function (weapon, endX, endY, endZ, hitElement, startX, startY, startZ)
        createExplosion(endX, endY, endZ, 2, source);

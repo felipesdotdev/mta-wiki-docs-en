@@ -3,7 +3,7 @@ doc_id: "mta-wiki:14589"
 title: "SetVehicleAudioSetting"
 source_title: "SetVehicleAudioSetting"
 source_url: "https://wiki.multitheftauto.com/wiki/SetVehicleAudioSetting"
-revision_id: 82291
+revision_id: 82884
 language: "en"
 categories: ["Client_functions", "Changes_in_1.6.0"]
 ---
@@ -16,7 +16,7 @@ This function sets audio properties for a **specific vehicle instance**. It allo
 
 ## Syntax
 
-```
+```lua
 bool setVehicleAudioSetting ( element vehicle, string property, float value )
 ```
 
@@ -26,21 +26,33 @@ bool setVehicleAudioSetting ( element vehicle, string property, float value )
 
 - **property:** The audio property to set. Valid properties are:
 
-- "doorSound" - Door sound effects
+- "door-sound" - Door sound effects
 
-- "engineOffSoundBankID" - Engine off sound bank ID (0-410)
+- "engine-off-soundbank-id" - Engine off sound bank ID (0-410). Used when the player *is not* in the vehicle
 
-- "engineOnSoundBankID" - Engine on sound bank ID (0-410)
+- "engine-on-soundbank-id" - Engine on sound bank ID (0-410). Used when the player *is* in the vehicle
 
-- "hornHigh" - Horn high frequency
+- "horn-high" - Horn high frequency
 
-- "hornTon" - Horn tone
+- "horn-ton" - Horn tone
 
-- "hornVolumeDelta" - Horn volume delta
+- "horn-volume-delta" - Horn volume delta
 
-- "radioNum" - Radio number
+- "radio-num" - Radio station number
 
-- "radioType" - Radio type
+- "radio-type" - Radio type
+
+- "sound-type" - Sound type
+
+- "bass-setting" - Bass value (0-2)
+
+- "bass-eq"
+
+- "field-c"
+
+- "engine-upgrade"
+
+- "vehicle-type-for-audio"
 
 - **value:** The numerical value to set for the specified property
 
@@ -58,13 +70,13 @@ Returns *true* if the audio setting was successfully applied, *false* otherwise.
 
 ## Examples
 
-```
+```lua
 -- Modify the engine sound for a specific vehicle
 local vehicle = createVehicle(411, 0, 0, 3)
 setVehicleAudioSetting(vehicle, "engineOnSoundBankID", 150)
 ```
 
-```
+```lua
 -- Customize horn settings for a specific vehicle
 local vehicle = createVehicle(560, 100, 100, 3)
 setVehicleAudioSetting(vehicle, "hornHigh", 1.5)
@@ -72,7 +84,7 @@ setVehicleAudioSetting(vehicle, "hornTon", 0.8)
 setVehicleAudioSetting(vehicle, "hornVolumeDelta", 2.0)
 ```
 
-```
+```lua
 -- Configure radio and door sounds for a specific vehicle
 local vehicle = createVehicle(562, 200, 200, 3)
 setVehicleAudioSetting(vehicle, "radioNum", 5)

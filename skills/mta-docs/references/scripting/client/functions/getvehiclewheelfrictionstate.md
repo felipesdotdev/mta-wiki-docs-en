@@ -3,34 +3,34 @@ doc_id: "mta-wiki:12636"
 title: "GetVehicleWheelFrictionState"
 source_title: "GetVehicleWheelFrictionState"
 source_url: "https://wiki.multitheftauto.com/wiki/GetVehicleWheelFrictionState"
-revision_id: 81275
+revision_id: 82887
 language: "en"
 categories: ["Client_functions", "Changes_in_1.6.0"]
 ---
 
 # GetVehicleWheelFrictionState
 
-This function returns the current wheel friction state of the [vehicle](https://wiki.multitheftauto.com/index.php?search=vehicle).
+This function returns the current wheel friction state of the [vehicle](https://wiki.multitheftauto.com/wiki/Vehicle).
 
 ## Syntax
 
-```
+```lua
 int getVehicleWheelFrictionState ( vehicle theVehicle, int wheel )
 ```
 
 **OOP Syntax** [Help! I don't understand this!](mta://tutorials/oop-introduction.md)
 
-**Method**: *[vehicle](https://wiki.multitheftauto.com/index.php?search=vehicle):getWheelFrictionState(...)*
+**Method**: *[vehicle](https://wiki.multitheftauto.com/wiki/Vehicle):getWheelFrictionState(...)*
 
 ### Required Arguments
 
-- **theVehicle:** The [vehicle](https://wiki.multitheftauto.com/index.php?search=vehicle) that you wish to get the wheel friction state.
+- **theVehicle:** The [vehicle](https://wiki.multitheftauto.com/wiki/Vehicle) that you wish to get the wheel friction state.
 
 - **wheel:** The wheel you want to check. (0: front left, 1: rear left, 2: front right, 3: rear right)
 
 ### Returns
 
-Returns a [int](mta://reference/misc/int.md) indicating the wheel friction state. This value can be:
+Returns an [int](mta://reference/misc/int.md) indicating the wheel friction state. This value can be:
 
 - **0:** Normal friction
 
@@ -44,7 +44,7 @@ Returns a [int](mta://reference/misc/int.md) indicating the wheel friction state
 
 This example will show the friction state of each wheel of the player's current vehicle:
 
-```
+```lua
 addEventHandler("onClientRender", root, function ()
     local veh = getPedOccupiedVehicle (localPlayer)
     
