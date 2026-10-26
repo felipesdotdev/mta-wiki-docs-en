@@ -3,7 +3,7 @@ doc_id: "mta-wiki:1535"
 title: "GetElementsByType"
 source_title: "GetElementsByType"
 source_url: "https://wiki.multitheftauto.com/wiki/GetElementsByType"
-revision_id: 82681
+revision_id: 82877
 language: "en"
 categories: ["Server_functions", "Client_functions", "Utility_templates"]
 ---
@@ -17,14 +17,14 @@ This function is used to retrieve a list of all elements of the specified type. 
 Click to collapse [-]
 Server
 
-```
+```lua
 table getElementsByType ( string theType, [ element startat=getRootElement() ] )
 ```
 
 Click to collapse [-]
 Client
 
-```
+```lua
 table getElementsByType ( string theType, [ element startat=getRootElement(), bool streamedIn=false ] )
 ```
 
@@ -68,6 +68,8 @@ table getElementsByType ( string theType, [ element startat=getRootElement(), bo
 
 - **"projectile":** A clientside projectile
 
+- **"weapon":** A weapon created by [createWeapon](mta://scripting/client/functions/createweapon.md)
+
 - **"effect":** A clientside effect
 
 - **"light":** A clientside light
@@ -80,13 +82,13 @@ table getElementsByType ( string theType, [ element startat=getRootElement(), bo
 
 - **"gui-window":** A GUI window (there's others like this for other GUI types)
 
-- **"building":** A building (client side only)
+- **"building":** A building
 
 - **"resource":** All the loaded resources
 
 ## Optional Arguments
 
-*NOTE:* When using optional arguments, you might need to supply all arguments before the one you wish to use. For more information on optional arguments, see [optional arguments](https://wiki.multitheftauto.com/index.php?search=optional%20arguments).
+*NOTE:* When using optional arguments, you might need to supply all arguments before the one you wish to use. For more information on optional arguments, see [optional arguments](https://wiki.multitheftauto.com/wiki/Optional_arguments).
 
 - **startat:** The [element](mta://reference/misc/element.md) the search should start at. Children of this element are searched, siblings or parents will not be found. By default, this is the root element which should suit most uses.
 
@@ -103,7 +105,7 @@ Returns a *table* containing all the elements of the specified type. Returns an 
 
 **Example 1:** This example retrieves a table of the players in the server, and checks whether or not each one is in a vehicle:
 
-```
+```lua
 local players = getElementsByType ( "player" ) -- get a table of all the players in the server
 for theKey,thePlayer in ipairs(players) do -- use a generic for loop to step through each player
    if ( isPlayerInVehicle ( thePlayer ) ) then -- if the player is in a vehicle, announce it
@@ -116,7 +118,7 @@ end
 
 **Example 2:** This example retrieves a table of the teams in the server, and display them in chat:
 
-```
+```lua
 local teams = getElementsByType("team")
 for i,team in ipairs(teams) do
    local teamName = getTeamName(team) -- get the team name
@@ -126,7 +128,7 @@ end
 
 **Example 3:** This shows how you could create a new element to describe a gas station:
 
-```
+```lua
 function createGasStations(below)
     local gasstations = getElementsByType ( "gasstation", below ) -- get a table of all the gas station elements in the element tree
     for theKey,theGasStation in ipairs(gasstations) do 
@@ -169,7 +171,7 @@ end
 
 **Example 4:** This example loops trough all connected players and redirects them to another server host:
 
-```
+```lua
 local serverIP = "99.88.77.66" -- Change to your server IP to redirect everyone
 local serverPort = 22005 -- The destination server's port
 

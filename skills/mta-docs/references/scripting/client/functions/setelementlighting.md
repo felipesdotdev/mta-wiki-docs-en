@@ -3,7 +3,7 @@ doc_id: "mta-wiki:14508"
 title: "SetElementLighting"
 source_title: "SetElementLighting"
 source_url: "https://wiki.multitheftauto.com/wiki/SetElementLighting"
-revision_id: 81668
+revision_id: 82902
 language: "en"
 categories: ["Client_functions", "Changes_in_1.6.0"]
 ---
@@ -12,7 +12,7 @@ categories: ["Client_functions", "Changes_in_1.6.0"]
 
 ADDED/UPDATED IN VERSION 1.6.0 [r22862](https://buildinfo.mtasa.com/?Author=&Branch=&Revision=22862):
 
-This function changes the lighting value for the specified [element](mta://reference/misc/element.md). This can be a [player](https://wiki.multitheftauto.com/index.php?search=player), [ped](https://wiki.multitheftauto.com/index.php?search=ped), [vehicle](https://wiki.multitheftauto.com/index.php?search=vehicle), [object](https://wiki.multitheftauto.com/index.php?search=object), [weapon](mta://reference/misc/element-weapon.md). 
+This function changes the lighting value for the specified [element](mta://reference/misc/element.md). This can be a [player](https://wiki.multitheftauto.com/wiki/Player), [ped](https://wiki.multitheftauto.com/wiki/Ped), [vehicle](https://wiki.multitheftauto.com/wiki/Vehicle), [object](https://wiki.multitheftauto.com/wiki/Object), [weapon](mta://reference/misc/element-weapon.md). 
 
 | [[{{{image}}}\|link=\|]] | Note: Lighting is calculated in real-time every frame. Therefore, to correctly override the lighting, you should use this function in combination with the onClientPedsProcessed event, not only for peds, but also for vehicles and objects. |
 | --- | --- |
@@ -20,7 +20,7 @@ This function changes the lighting value for the specified [element](mta://refer
 
 ## Syntax
 
-```
+```lua
 bool setElementLighting ( element theElement, float lighting )
 ```
 
@@ -46,12 +46,12 @@ Returns true if the function was successful, false otherwise. This function can 
 
 This example sets the lighting value of all players and vehicles to 10
 
-```
+```lua
 addEventHandler("onClientPedsProcessed",root,function()
-    for _, v in pairs(getElementsByType('player')) do
+    for _, v in pairs(getElementsByType('player', root, true)) do
         setElementLighting(v, 10)
     end
-    for _, v in pairs(getElementsByType('vehicle')) do
+    for _, v in pairs(getElementsByType('vehicle', root, true)) do
         setElementLighting(v, 10)
     end
 end)
@@ -59,7 +59,7 @@ end)
 
 This example sets the lighting value to 10 only for our player, while keeping other players at the default value.
 
-```
+```lua
 addEventHandler("onClientPedsProcessed",root,function()
     setElementLighting(localPlayer, 10)
 end)

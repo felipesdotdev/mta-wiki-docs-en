@@ -3,7 +3,7 @@ doc_id: "mta-wiki:4899"
 title: "Upgrading from MTA:Race"
 source_title: "Upgrading from MTA:Race"
 source_url: "https://wiki.multitheftauto.com/wiki/Upgrading_from_MTA%3ARace"
-revision_id: 69350
+revision_id: 82863
 language: "en"
 categories: ["Historical", "Support"]
 ---
@@ -74,4 +74,4 @@ All you have to do is head to the [download page](http://www.mtasa.com/) and ins
 
 ### Server Owners
 
-Server owners can easily upgrade to MTA:SA 1.6.  Races are fully compatible after a short upgrade process.  Simply install the latest server package, and use our [batch converter](http://files.mtasa.com/apps/1.0/raceconv.zip) to convert your maps into MTA:SA 1.6 resource format. From then on, your converted maps work with the [race gamemode](mta://resources/race.md) and can be managed through the [map manager](mta://resources/mapmanager.md) and the [vote manager](mta://resources/votemanager.md).
+Server owners can easily upgrade to MTA:SA 1.6.  Races are fully compatible after a short upgrade process.  Simply install the latest server package, and use our [batch converter](https://web.archive.org/web/20120128231117/https://files.mtasa.com/apps/1.0/raceconv.zip) to convert your maps into MTA:SA 1.6 resource format. From then on, your converted maps work with the [race gamemode](mta://resources/race.md) and can be managed through the [map manager](mta://resources/mapmanager.md) and the [vote manager](mta://resources/votemanager.md).

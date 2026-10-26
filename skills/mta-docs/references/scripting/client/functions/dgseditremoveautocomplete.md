@@ -3,18 +3,22 @@ doc_id: "mta-wiki:12253"
 title: "DgsEditRemoveAutoComplete"
 source_title: "DgsEditRemoveAutoComplete"
 source_url: "https://wiki.multitheftauto.com/wiki/DgsEditRemoveAutoComplete"
-revision_id: 66128
+revision_id: 82908
 language: "en"
 categories: ["Client_functions"]
 ---
 
 # DgsEditRemoveAutoComplete
 
+| [[{{{image}}}\|link=\|]] | Important Note: The correct function name is dgsEditDeleteAutoComplete , not dgsEditRemoveAutoComplete . |
+| --- | --- |
+|  |  |
+
 This function removes the specific auto complete string from the dgs edit.
 
 ## Syntax
 
-```
+```lua
 bool dgsEditRemoveAutoComplete( element edit, string autoCompleteText )
 ```
 
@@ -30,7 +34,7 @@ Returns *true* if successfully, *false* otherwise.
 
 ## Example
 
-```
+```lua
 DGS = exports.dgs
 edit = DGS:dgsCreateEdit(100,100,50,50,"",false)
 DGS:dgsEditAddAutoComplete(edit,"DGS Edit Text",false)
@@ -231,7 +235,7 @@ DGS:dgsEditRemoveAutoComplete(edit,"DGS Edit Text")
 
 - [dgsTranslationTableExists](mta://scripting/client/functions/dgstranslationtableexists.md)
 
-- [dgsSetTranslationTable](https://wiki.multitheftauto.com/index.php?search=dgsSetTranslationTable)
+- [dgsSetTranslationTable](mta://scripting/client/functions/dgssettranslationtable.md)
 
 - [dgsAttachToTranslation](mta://scripting/client/functions/dgsattachtotranslation.md)
 

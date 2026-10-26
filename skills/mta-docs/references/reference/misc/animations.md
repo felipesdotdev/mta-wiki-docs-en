@@ -3,7 +3,7 @@ doc_id: "mta-wiki:4190"
 title: "Animations"
 source_title: "Animations"
 source_url: "https://wiki.multitheftauto.com/wiki/Animations"
-revision_id: 73992
+revision_id: 82862
 language: "en"
 categories: ["ID_Lists"]
 ---
@@ -1472,6 +1472,74 @@ categories: ["ID_Lists"]
 - pedals_slow
 
 - pedals_still
+
+## gfunk
+
+- dance_b1
+
+- dance_b10
+
+- dance_b11
+
+- dance_b12
+
+- dance_b13
+
+- dance_b14
+
+- dance_b15
+
+- dance_b16
+
+- dance_b2
+
+- dance_b3
+
+- dance_b4
+
+- dance_b5
+
+- dance_b6
+
+- dance_b7
+
+- dance_b8
+
+- dance_b9
+
+- dance_g1
+
+- dance_g10
+
+- dance_g11
+
+- dance_g12
+
+- dance_g13
+
+- dance_g14
+
+- dance_g15
+
+- dance_g16
+
+- dance_g2
+
+- dance_g3
+
+- dance_g4
+
+- dance_g5
+
+- dance_g6
+
+- dance_g7
+
+- dance_g8
+
+- dance_g9
+
+- dance_loop
 
 ## haircuts
 
@@ -3695,7 +3763,7 @@ categories: ["ID_Lists"]
 
 #### Lua table of animations
 
-```
+```lua
 local animations = {
   airport = {"thrw_barl_thrw"},
   attractors = {
@@ -5670,4 +5738,4 @@ local animations = {
 
 ## See Also
 
-- [ID Lists](https://wiki.multitheftauto.com/index.php?search=ID%20Lists)
+- [ID Lists](https://wiki.multitheftauto.com/wiki/Id)

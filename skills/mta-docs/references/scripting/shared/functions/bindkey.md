@@ -3,7 +3,7 @@ doc_id: "mta-wiki:1692"
 title: "BindKey"
 source_title: "BindKey"
 source_url: "https://wiki.multitheftauto.com/wiki/BindKey"
-revision_id: 78900
+revision_id: 82922
 language: "en"
 categories: ["Server_functions", "Client_functions", "Utility_templates"]
 ---
@@ -12,7 +12,7 @@ categories: ["Server_functions", "Client_functions", "Utility_templates"]
 
 Binds a player's key to a handler function or command, which will be called when the key is pressed.
 
-| [[{{{image}}}\|link=\|]] | Note: Using escape key or F8 key will always return false. Use onClientKey event instead. |
+| [[{{{image}}}\|link=\|]] | Note: Using escape key or F8 key will always return false. Use onClientKey event to handle escape key instead. |
 | --- | --- |
 |  |  |
 
@@ -25,7 +25,7 @@ Binds a player's key to a handler function or command, which will be called when
 Click to collapse [-]
 Server - Syntax 1
 
-```
+```lua
 bool bindKey ( player thePlayer, string key, string keyState, function handlerFunction,  [ var arguments, ... ] )
 ```
 
@@ -45,7 +45,7 @@ bool bindKey ( player thePlayer, string key, string keyState, function handlerFu
 
 - **handlerFunction:** The function that will be triggered when the player's key is pressed. This function should have the form:
 
-```
+```lua
 function functionName ( player keyPresser, string key, string keyState, [ var arguments, ... ] )
 ```
 
@@ -64,7 +64,7 @@ Server - Syntax 2
 
 This alternative syntax allows you to bind a key with a command.  This will also allow users to customize the control in their Settings menu.  Use in conjunction with [addCommandHandler](mta://scripting/shared/functions/addcommandhandler.md) to add handler functions to the keybind.
 
-```
+```lua
 bool bindKey ( player thePlayer, string key, string keyState, string commandName, [ string arguments ] )
 ```
 
@@ -91,7 +91,7 @@ bool bindKey ( player thePlayer, string key, string keyState, string commandName
 Click to collapse [-]
 Client - Syntax 1
 
-```
+```lua
 bool bindKey ( string key, string keyState, function handlerFunction,  [ var arguments, ... ] )
 ```
 
@@ -109,7 +109,7 @@ bool bindKey ( string key, string keyState, function handlerFunction,  [ var arg
 
 - **handlerFunction:** The function that will be triggered when the player's key is pressed. This function should have the form:
 
-```
+```lua
 function functionName ( string key, string keyState, [ var arguments, ... ] )
 ```
 
@@ -126,7 +126,7 @@ Client - Syntax 2
 
 This alternative syntax allows you to bind a key with a command.  This will also allow users to customize the control in their Settings menu.  Use in conjunction with [addCommandHandler](mta://scripting/shared/functions/addcommandhandler.md) to add handler functions to the keybind.
 
-```
+```lua
 bool bindKey ( string key, string keyState, string commandName, [ string arguments ] )
 ```
 
@@ -148,7 +148,7 @@ bool bindKey ( string key, string keyState, string commandName, [ string argumen
 
 ### Optional Arguments
 
-*NOTE:* When using optional arguments, you might need to supply all arguments before the one you wish to use. For more information on optional arguments, see [optional arguments](https://wiki.multitheftauto.com/index.php?search=optional%20arguments).
+*NOTE:* When using optional arguments, you might need to supply all arguments before the one you wish to use. For more information on optional arguments, see [optional arguments](https://wiki.multitheftauto.com/wiki/Optional_arguments).
 
 - **arguments:** Any arguments you may want to pass to the function when the key is pressed by the user. Any number of arguments of  can be specified, each being passed to the designated function. You may not pass functions.
 
@@ -165,7 +165,7 @@ Server
 
 This example will bind a player's 'F1' key and 'fire' control to 1 input function.
 
-```
+```lua
 function funcInput ( player, key, keyState )
   outputChatBox ( getPlayerName ( player) .. " " .. (keyState == "down" and "pressed" or "released") .. " the " .. key .. " key!" )
 end
@@ -185,7 +185,7 @@ Client
 
 This example will bind a player's 'F1' key and 'fire' control to 1 input function, clientside.
 
-```
+```lua
 function funcInput ( key, keyState )
 	outputChatBox( "You " .. (keyState == "down" and "pressed" or "let go of") .. " the " .. key .. " key!" )
 end
@@ -203,7 +203,7 @@ Server
 
 This example says how cool is the MTA:SA is if players wants to move.
 
-```
+```lua
 function fanFunction()
   bindKey (source,"forwards","down",
     function(player,key,state)

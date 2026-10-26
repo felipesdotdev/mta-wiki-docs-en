@@ -3,7 +3,7 @@ doc_id: "mta-wiki:5974"
 title: "Server mtaserver.conf"
 source_title: "Server mtaserver.conf"
 source_url: "https://wiki.multitheftauto.com/wiki/Server_mtaserver.conf"
-revision_id: 82471
+revision_id: 82912
 language: "en"
 categories: ["Support"]
 ---
@@ -214,7 +214,7 @@ This parameter can changed and saved while the server is running with [setServer
 
 This parameter can be used to make the server report to Game-Monitor master servers, allowing it to be visible in the in-game server browser. An additional UDP port needs to be available for this to work (value from <serverport> + 123 , so on a default <serverport> value 22003 the right port will be 22126 ).
 
-Available values: 0 - disabled , 1 - enabled. Optional parameter, defaults to 0.
+Available values: 0 - disabled, 1 - enabled. Optional parameter, defaults to 1.
 
 #### donotbroadcastlan
 

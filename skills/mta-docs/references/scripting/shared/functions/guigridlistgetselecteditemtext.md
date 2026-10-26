@@ -3,7 +3,7 @@ doc_id: "mta-wiki:7049"
 title: "GuiGridListGetSelectedItemText"
 source_title: "GuiGridListGetSelectedItemText"
 source_url: "https://wiki.multitheftauto.com/wiki/GuiGridListGetSelectedItemText"
-revision_id: 35191
+revision_id: 82911
 language: "en"
 categories: ["Useful_Functions"]
 ---
@@ -14,7 +14,7 @@ This function gets the item text of the selected item in a grid list .
 
 ## Syntax
 
-```
+```lua
 string guiGridListGetSelectedItemText ( element gridList [, int column = 1 ] )
 ```
 
@@ -31,7 +31,7 @@ string guiGridListGetSelectedItemText ( element gridList [, int column = 1 ] )
 Click to collapse [-]
 Client
 
-```
+```lua
 function guiGridListGetSelectedItemText ( gridList, column )
     local item = guiGridListGetSelectedItem ( gridList )
     
@@ -51,7 +51,7 @@ end
 
 - This example gets a player name from the grid list, and out puts it in the chat .
 
-```
+```lua
 local window = guiCreateWindow ( 350, 100, 200, 250, "The Players", false )
 --- Create a window !
 local gridList = guiCreateGridList ( 0.8, 0.1, 0.15, 0.6, true, window )
@@ -78,7 +78,7 @@ function selectAPlayer ( )
 --- Close the ' if ' !
 end
 --- Close the ' function ' !
-addEventHandler ( 'onClientDoubleGUIClick', root, selectAPlayer )
+addEventHandler ( 'onClientGUIDoubleClick', root, selectAPlayer )
 --- Add the event handler of the function !
 ```
 
@@ -196,7 +196,7 @@ addEventHandler ( 'onClientDoubleGUIClick', root, selectAPlayer )
 
 - [dxDrawRing](mta://scripting/shared/functions/dxdrawring.md) » This function draws a ring with dx lines.
 
-- [dxDrawRombo](https://wiki.multitheftauto.com/index.php?search=dxDrawRombo) » This function creates a Rhombus.
+- [dxDrawRombo](https://wiki.multitheftauto.com/wiki/DxDrawRombo) » This function creates a Rhombus.
 
 - [dxDrawSprite](mta://scripting/shared/functions/dxdrawsprite.md) » This function draw a sprite in the 3D world.
 
@@ -278,7 +278,7 @@ addEventHandler ( 'onClientDoubleGUIClick', root, selectAPlayer )
 
 - [bindControlKeys](mta://scripting/shared/functions/bindcontrolkeys.md) » This function allows you to bind each key bound to a control individually. Doing this bypasses a little MTA restriction.
 
-- [unbindControlKeys](https://wiki.multitheftauto.com/index.php?search=unbindControlKeys) » This function allows you to unbind each key bound to a control individually. Use this function with [bindControlKeys](mta://scripting/shared/functions/bindcontrolkeys.md).
+- [unbindControlKeys](https://wiki.multitheftauto.com/wiki/UnbindControlKeys) » This function allows you to unbind each key bound to a control individually. Use this function with [bindControlKeys](mta://scripting/shared/functions/bindcontrolkeys.md).
 
 - [getBoundControls](mta://scripting/shared/functions/getboundcontrols.md) » This function returns a table of control names that are bound to the specified key.
 
@@ -376,7 +376,7 @@ addEventHandler ( 'onClientDoubleGUIClick', root, selectAPlayer )
 
 - [wavelengthToRGBA](mta://scripting/shared/functions/wavelengthtorgba.md) » This function converts a physical wavelength of light to a RGBA color.
 
-- [fixPersianString](https://wiki.multitheftauto.com/index.php?search=fixPersianString) » This function returns a fixed sorted bilingual RTL for strings consisting of Farsi/Arabic and English.
+- [fixPersianString](mta://scripting/shared/functions/fixpersianstring.md) » This function returns a fixed sorted bilingual RTL for strings consisting of Farsi/Arabic and English.
 
 - [getColorName](mta://scripting/shared/functions/getcolorname.md) » This function retrieves the nearest color name for a given RGB value using an online API.
 
@@ -480,7 +480,7 @@ addEventHandler ( 'onClientDoubleGUIClick', root, selectAPlayer )
 
 - [getPedHitBone](mta://scripting/shared/functions/getpedhitbone.md) » This function gets the approximate number of the bone where the ped is hit.
 
-- [getPlayerFromNamePart](https://wiki.multitheftauto.com/index.php?search=getPlayerFromNamePart) » This function returns a player from partial name.
+- [getPlayerFromNamePart](https://wiki.multitheftauto.com/wiki/GetPlayerFromNamePart) » This function returns a player from partial name.
 
 - [getPlayerFromSerial](mta://scripting/shared/functions/getplayerfromserial.md) » This function returns a player from their serial.
 

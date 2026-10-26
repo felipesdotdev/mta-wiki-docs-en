@@ -3,7 +3,7 @@ doc_id: "mta-wiki:1818"
 title: "OnElementDataChange"
 source_title: "OnElementDataChange"
 source_url: "https://wiki.multitheftauto.com/wiki/OnElementDataChange"
-revision_id: 82492
+revision_id: 82901
 language: "en"
 categories: ["Server_Events"]
 ---
@@ -18,7 +18,7 @@ This event is triggered *after* an element's [data](mta://reference/misc/element
 
 ## Parameters
 
-```
+```lua
 string theKey, var oldValue, var newValue
 ```
 
@@ -34,7 +34,7 @@ This event cannot be cancelled using [cancelEvent](mta://scripting/shared/functi
 
 ADDED/UPDATED IN VERSION 1.7.0 [r25731](https://buildinfo.mtasa.com/?Author=&Branch=&Revision=25731):
 
-This event can be cancelled using [cancelEvent](mta://scripting/shared/functions/cancelevent.md). If a client sent the cancelled change to the server, the server will send the client the server's version of the element data.
+As of 1.7, this event can be cancelled using [cancelEvent](mta://scripting/shared/functions/cancelevent.md). If a client sent the cancelled change to the server, the server will send the client the server's version of the element data.
 
 ## Source
 
@@ -47,7 +47,7 @@ Server
 
 This example outputs a message to players when any of their element data values is changed.
 
-```
+```lua
 function outputChange(theKey, oldValue, newValue)
     if (getElementType(source) == "player") then -- check if the element is a player
         outputChatBox("Your element data '" .. tostring(theKey) .. "' has changed from '" .. tostring(oldValue) .. "' to '" .. tostring(newValue) .. "'", source) -- output the change for the affected player
@@ -61,7 +61,7 @@ Server
 
 This example checks and possibly reverses an element's data change.
 
-```
+```lua
 function checkChange(theKey, oldValue)
     -- The client can only set 'special_thing' on its own player
     if (theKey== "special_thing") and (client ~= source) then
@@ -74,7 +74,7 @@ addEventHandler("onElementDataChange", root, checkChange)
 
 This example blocks all element data changes from clients. In MTA 1.7+ only.
 
-```
+```lua
 function checkChange(theKey, oldValue, newValue)
     if (client) then -- if there's a client variable, it means it came from a player.
         cancelEvent()
