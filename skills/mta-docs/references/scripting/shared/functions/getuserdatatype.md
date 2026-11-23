@@ -3,7 +3,7 @@ doc_id: "mta-wiki:9052"
 title: "GetUserdataType"
 source_title: "GetUserdataType"
 source_url: "https://wiki.multitheftauto.com/wiki/GetUserdataType"
-revision_id: 76247
+revision_id: 82926
 language: "en"
 categories: ["Server_functions", "Client_functions", "Changes_in_1.5.3"]
 ---
@@ -14,7 +14,7 @@ This function gets the type of a userdata value, which is not always a [element]
 
 ## Syntax
 
-```
+```lua
 string getUserdataType ( userdata value )
 ```
 
@@ -23,6 +23,8 @@ string getUserdataType ( userdata value )
 - **value**: A userdata value to get the type of. Userdata types can be:
 
 - **Shared**
+
+- *element*: an [element](mta://reference/misc/element.md).
 
 - *resource-data*: a [resource pointer](mta://reference/misc/resource.md).
 
@@ -48,9 +50,9 @@ string getUserdataType ( userdata value )
 
 - *db-query*: a [database query handle](mta://scripting/server/functions/dbquery.md).
 
-- *acl*: an [ACL entry](https://wiki.multitheftauto.com/index.php?search=ACL%20entry).
+- *acl*: an [ACL entry](https://wiki.multitheftauto.com/wiki/ACL).
 
-- *acl-group*: an [ACL group](https://wiki.multitheftauto.com/index.php?search=ACL%20group).
+- *acl-group*: an [ACL group](https://wiki.multitheftauto.com/wiki/Aclgroup).
 
 - *ban*: a [player ban](mta://reference/misc/ban.md).
 
@@ -66,7 +68,7 @@ Returns a [string](mta://reference/misc/string.md) containing the specified user
 
 This example shows a function that can be used to work around the impossibility to transfer vectors as arguments when using [triggerClientEvent](mta://scripting/server/functions/triggerclientevent.md) and [triggerServerEvent](mta://scripting/client/functions/triggerserverevent.md), by converting them into a table which can be used safely.
 
-```
+```lua
 function safeArgsForTransfer(...)
     local args = { ... }
     for index, arg in ipairs(args) do
@@ -163,7 +165,7 @@ ADDED/UPDATED IN VERSION 1.6.0 [r22701](https://buildinfo.mtasa.com/?Author=&Bra
 
 - [passwordVerify](mta://scripting/shared/functions/passwordverify.md)
 
-- [pregFind](https://wiki.multitheftauto.com/index.php?search=pregFind)
+- [pregFind](mta://scripting/shared/functions/pregfind.md)
 
 - [pregMatch](mta://scripting/shared/functions/pregmatch.md)
 
@@ -201,7 +203,7 @@ ADDED/UPDATED IN VERSION 1.6.0 [r22701](https://buildinfo.mtasa.com/?Author=&Bra
 
 - [utfCode](mta://scripting/shared/functions/utfcode.md)
 
-- [utfLen](https://wiki.multitheftauto.com/index.php?search=utfLen)
+- [utfLen](mta://scripting/shared/functions/utflen.md)
 
 - [utfSeek](mta://scripting/shared/functions/utfseek.md)
 

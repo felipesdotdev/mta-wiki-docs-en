@@ -3,7 +3,7 @@ doc_id: "mta-wiki:5973"
 title: "Server Commands"
 source_title: "Server Commands"
 source_url: "https://wiki.multitheftauto.com/wiki/Server_Commands"
-revision_id: 78945
+revision_id: 82923
 language: "en"
 categories: ["Changes_in_1.5.5", "Changes_in_1.5.6", "Support"]
 ---
@@ -20,7 +20,7 @@ Server console only
 
 Usage: check [ *all* | *<resource-name>* ]  
 
-Checks which files would be changed with [upgrade](mta://reference/misc/server-commands.md) command. Does not modify anything.
+Checks which files would be changed with [upgrade](#upgrade) command. Does not modify anything.
 
 #### info
 
@@ -72,7 +72,7 @@ Server console only
 
 Usage: upgrade [ *all* | *<resource-name>* ]  
 
-Perform a basic upgrade of all resources. The [check](mta://reference/misc/server-commands.md) command shows the list of changes this command will make.
+Perform a basic upgrade of all resources. The [check](#check) command shows the list of changes this command will make.
 
 #### aclrequest
 
@@ -136,7 +136,9 @@ Server console only
 
 Set logging level for database functions. [0-Off  1-Errors only  2-All]
 
-By default, logging output is written to the file **logs/db.log** unless another file is declared in the [<dbfile> section of mtaserver.conf](https://wiki.multitheftauto.com/index.php?search=%3Cdbfile%3E%20section%20of%20mtaserver.conf)
+By default, logging output is written to the file **logs/db.log** unless another file is declared in the [<dbfile> section of mtaserver.conf](https://wiki.multitheftauto.com/wiki/Mtaserver.conf#dbfile)
+
+Tip: to not have to execute this command every time the server restarts: Create autoexec.conf in the same folder as mtaserver.conf and put this in it: debugdb 1
 
 #### debugjoinflood
 
@@ -188,7 +190,7 @@ Test if server ports are open
 
 Usage: sfakelag *<packet loss>* *<extra ping>* *<ping variance>* [*<KBPS limit>*]
 
-**Only available if enabled in the [mtaserver.conf](https://wiki.multitheftauto.com/index.php?search=mtaserver.conf) file.**
+**Only available if enabled in the [mtaserver.conf](https://wiki.multitheftauto.com/wiki/Mtaserver.conf) file.**
 
 Adds artificial packet loss, ping, jitter and bandwidth limits to the server-client connections.
 

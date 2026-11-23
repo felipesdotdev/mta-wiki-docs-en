@@ -3,7 +3,7 @@ doc_id: "mta-wiki:4234"
 title: "SetGarageOpen"
 source_title: "SetGarageOpen"
 source_url: "https://wiki.multitheftauto.com/wiki/SetGarageOpen"
-revision_id: 79947
+revision_id: 82933
 language: "en"
 categories: ["Server_functions", "Client_functions"]
 ---
@@ -18,7 +18,7 @@ This function opens or closes the specified garage door in the world.
 
 ## Syntax
 
-```
+```lua
 bool setGarageOpen ( int garageID, bool open )
 ```
 
@@ -39,34 +39,34 @@ Server
 
 This example opens a garage door when a player enters a collision shape near it, and closes it when they leave:
 
-```
+```lua
 local GARAGE_ID = 25
 
 -- create a collision shape and attach event handlers to it when the resource starts
-addEventHandler("onResourceStart", resourceRoot, function (resource)
-	local garageCube = createColCuboid(1337, 194, 28, 6, 10, 4)
-	addEventHandler("onColShapeHit", garageCube, onGarageCubeHit)
-	addEventHandler("onColShapeLeave", garageCube, onGarageCubeLeave)
+addEventHandler("onResourceStart", resourceRoot, function ()
+    local garageCube = createColCuboid(1337, 194, 28, 6, 10, 4)
+    addEventHandler("onColShapeHit", garageCube, onGarageCubeHit)
+    addEventHandler("onColShapeLeave", garageCube, onGarageCubeLeave)
 end)
 
 -- open the door when someone enters the garage's collision shape
-function onGarageCubeHit(hitElement, matchingDimension)
-	if getElementType(hitElement) ~= "player" then
-		return
-	end
-	-- check to make sure the door is closed
-	-- open if they are closed
-	setGarageOpen(GARAGE_ID, not isGarageOpen(GARAGE_ID))
+function onGarageCubeHit(hitElement)
+    if hitElement and getElementType(hitElement) ~= "player" then
+        return
+    end
+    -- check to make sure the door is closed
+    -- open if they are closed
+    setGarageOpen(GARAGE_ID, not isGarageOpen(GARAGE_ID))
 end
 
 -- close the door when someone leaves the garage's collision shape
-function onGarageCubeLeave(leaveElement, matchingDimension)
-	if getElementType(leaveElement) ~= "player" then
-		return
-	end
-	-- check to make sure the door is open
-	-- close if they are opened
-	setGarageOpen(GARAGE_ID, not isGarageOpen(GARAGE_ID))
+function onGarageCubeLeave(leaveElement)
+    if leaveElement and getElementType(leaveElement) ~= "player" then
+        return
+    end
+    -- check to make sure the door is open
+    -- close if they are opened
+    setGarageOpen(GARAGE_ID, not isGarageOpen(GARAGE_ID))
 end
 ```
 
@@ -75,10 +75,10 @@ Server
 
 This example opens each garage door when a player enters a collision shape near it, and closes it when they leave:
 
-```
+```lua
 local garages = {
-	{ 1643.43, -1520.3, 14.3438, },
-	{ 1877.41, -2096.51, 14.0391, },
+    { 1643.43, -1520.3, 14.3438, },
+    { 1877.41, -2096.51, 14.0391, },
     { 1843.37, -1856.32, 13.875, },
     { 1798.69, -2146.73, 14, },
     { 1698.91, -2088.74, 14.1406, },
@@ -126,24 +126,24 @@ local garages = {
 }
 
 local function createGarageColShape(x, y, z, ID)
-    local col = createColSphere(x, y, z, 7)
-    
-    addEventHandler("onColShapeHit", col, function(hitElement, matchingDimension)
-        if getElementType(hitElement) ~= "player" then
+    local col = createColSphere(x, y, z, 10)
+
+    addEventHandler("onColShapeHit", col, function(hitElement)
+        if hitElement and getElementType(hitElement) ~= "player" then
             return
         end
         setGarageOpen(ID, not isGarageOpen(ID))
     end)
-    
-    addEventHandler("onColShapeLeave", col, function(leaveElement, matchingDimension)
-        if getElementType(hitElement) ~= "player" then
+
+    addEventHandler("onColShapeLeave", col, function(leaveElement)
+        if leaveElement and getElementType(leaveElement) ~= "player" then
             return
         end
         setGarageOpen(ID, not isGarageOpen(ID))
     end)
 end
 
-addEventHandler("onResourceStart", resourceRoot, function(res)
+addEventHandler("onResourceStart", resourceRoot, function()
     for ID, pos in ipairs(garages) do
         createGarageColShape(pos[1], pos[2], pos[3], ID)
     end

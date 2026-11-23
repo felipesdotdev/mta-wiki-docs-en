@@ -3,18 +3,22 @@ doc_id: "mta-wiki:10729"
 title: "DgsMediaIsStreamMedia"
 source_title: "DgsMediaIsStreamMedia"
 source_url: "https://wiki.multitheftauto.com/wiki/DgsMediaIsStreamMedia"
-revision_id: 58421
+revision_id: 82909
 language: "en"
-categories: ["Client_functions"]
+categories: ["Client_functions", "Disabled_Functions_and_Events"]
 ---
 
 # DgsMediaIsStreamMedia
+
+|  | Function has been disabled. |
+| --- | --- |
+| Reason/Note: This function doesn't work actually. |  |
 
 This function checks whether there is a media loaded by the media browser .
 
 ## Syntax
 
-```
+```lua
 bool dgsMediaIsStreamMedia ( element media )
 ```
 
@@ -28,7 +32,7 @@ Returns true if the the media browser has already loaded a media source, *false*
 
 ## Example
 
-```
+```lua
 loadstring(exports.dgs:dgsImportFunction())()  --Import DGS functions
 
 browser = dgsCreateMediaBrowser(256,256) --Create Multi Media Browser
@@ -236,7 +240,7 @@ end
 
 - [dgsTranslationTableExists](mta://scripting/client/functions/dgstranslationtableexists.md)
 
-- [dgsSetTranslationTable](https://wiki.multitheftauto.com/index.php?search=dgsSetTranslationTable)
+- [dgsSetTranslationTable](mta://scripting/client/functions/dgssettranslationtable.md)
 
 - [dgsAttachToTranslation](mta://scripting/client/functions/dgsattachtotranslation.md)
 

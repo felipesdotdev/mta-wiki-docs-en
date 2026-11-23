@@ -3,7 +3,7 @@ doc_id: "mta-wiki:5710"
 title: "SetFarClipDistance"
 source_title: "SetFarClipDistance"
 source_url: "https://wiki.multitheftauto.com/wiki/SetFarClipDistance"
-revision_id: 69632
+revision_id: 82915
 language: "en"
 categories: ["Server_functions", "Client_functions"]
 ---
@@ -12,15 +12,13 @@ categories: ["Server_functions", "Client_functions"]
 
 This function is used to set the distance of render. Areas beyond the specified distance will not be rendered.
 
+example for function
+
 ## Syntax
 
-```
+```lua
 bool setFarClipDistance ( float distance )
 ```
-
- 
-
-example for function
 
 ### Required Arguments
 
@@ -37,24 +35,24 @@ Server
 
 This example adjusts the visibility range of the game world.
 
-```
-addEventHandler( "onResourceStart", resourceRoot,
-	function( )
-		setFarClipDistance( 3000 ) -- We adjust visibility range to 3000 metres
-	end
+```lua
+addEventHandler("onResourceStart", resourceRoot,
+    function()
+        setFarClipDistance(3000) -- We adjust visibility range to 3000 metres
+    end
 )
 ```
 
-Click to expand [+]
+Click to collapse [-]
 Client
 
 This example adjusts the visibility range of the game world.
 
-```
-addEventHandler( "onClientResourceStart", resourceRoot,
-	function( )
-		setFarClipDistance( 3000 ) -- We adjust visibility range to 3000 metres
-	end
+```lua
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        setFarClipDistance(3000) -- We adjust visibility range to 3000 metres
+    end
 )
 ```
 

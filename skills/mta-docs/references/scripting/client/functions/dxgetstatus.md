@@ -3,7 +3,7 @@ doc_id: "mta-wiki:5812"
 title: "DxGetStatus"
 source_title: "DxGetStatus"
 source_url: "https://wiki.multitheftauto.com/wiki/DxGetStatus"
-revision_id: 76812
+revision_id: 82927
 language: "en"
 categories: ["Client_functions", "Changes_in_1.6.0"]
 ---
@@ -14,7 +14,7 @@ This function gets information about various internal datum.
 
 ## Syntax
 
-```
+```lua
 table dxGetStatus ( )
 ```
 
@@ -90,7 +90,7 @@ Returns a table with the following entries:
 
 ## Example
 
-```
+```lua
 addCommandHandler("getinfo",
 	function ()
 		local info = dxGetStatus ()

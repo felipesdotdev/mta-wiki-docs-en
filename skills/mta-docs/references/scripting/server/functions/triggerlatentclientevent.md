@@ -3,7 +3,7 @@ doc_id: "mta-wiki:6073"
 title: "TriggerLatentClientEvent"
 source_title: "TriggerLatentClientEvent"
 source_url: "https://wiki.multitheftauto.com/wiki/TriggerLatentClientEvent"
-revision_id: 81065
+revision_id: 82885
 language: "en"
 categories: ["Server_functions"]
 ---
@@ -19,7 +19,7 @@ and other network traffic is not blocked while the data is being transferred.
 
 ## Syntax
 
-```
+```lua
 bool triggerLatentClientEvent ( [table/element sendTo=getRootElement(),] string name, [int bandwidth=50000,] [bool persist=false,] element theElement, [arguments...] )
 ```
 
@@ -31,13 +31,13 @@ bool triggerLatentClientEvent ( [table/element sendTo=getRootElement(),] string 
 
 ### Optional Arguments
 
-- **sendTo:** The event will be sent to all [players](https://wiki.multitheftauto.com/index.php?search=players) that are children of the specified element. By default this is the root element, and hence the event is sent to all players. If you specify a single player it will just be sent to that player. This argument can also be a table of player elements.
+- **sendTo:** The event will be sent to all [players](https://wiki.multitheftauto.com/wiki/Player) that are children of the specified element. By default this is the root element, and hence the event is sent to all players. If you specify a single player it will just be sent to that player. This argument can also be a table of player elements.
 
 - **bandwidth:** The bytes per second rate to send the data contained in the arguments.
 
 - **persist:** A bool indicating whether the transmission should be allowed to continue even after the resource that triggered it has since stopped.
 
-- **arguments...:** A list of arguments to trigger with the event. You can pass any Lua data type (except functions). You can also pass [elements](mta://reference/misc/element.md). The total amount of data should not exceed 100MB.
+- **arguments...:** A list of arguments to trigger with the event. You can pass any Lua data type (except functions). You can also pass [elements](mta://reference/misc/element.md). The total amount of data should not exceed 10MB.
 
 ### Returns
 
@@ -52,7 +52,7 @@ up the event in to a thread. This gives benefits to your server, because as stat
 but when using the normal trigger It gave me a 15% CPU usage.
 Putting both of these in a loop will provide you sufficient understanding.
 
-```
+```lua
 for i = 1, 10000 do
    --trigger the event to client side using one of the functions.
 end
@@ -65,7 +65,7 @@ I suggest using latent event instead to ensure your server won't hold back to an
 Click to collapse [-]
 Client
 
-```
+```lua
 addEvent("onClientReadFile",true)
 addEventHandler("onClientReadFile",root,function(data)
 	local file = fileCreate("text.txt")					--Save "data" into "text.txt"
@@ -77,7 +77,7 @@ end)
 Click to collapse [-]
 Server
 
-```
+```lua
 if fileExists("text.txt") then
 	file = fileOpen("test.txt")						--Open a file (you can create it yourself).
 	local data = fileRead(file,100*1024*1024)				--Max 100 MB
